@@ -1,0 +1,2036 @@
+.option_menu:hover{
+  background-color: #5a32aa;
+  border-radius: 4%;
+}
+
+.credentials{
+  margin-left: 3%;
+  margin-top: 2%;
+}
+
+#fecha_hora{
+  height: 75%;
+  border: 3px solid #6b4caa;
+  border-radius: var(--br-3xs);
+  font-size: 20px;
+  width: 100%;
+}
+
+.user-icon {
+  height: 110px;
+  width: 110px;
+  position: relative;
+  object-fit: cover;
+}
+.user-name2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-34xl);
+}
+.maria-perez6 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.maria-perez6,
+.plan-premium4 {
+  position: relative;
+}
+.plan,
+.premium {
+  align-self: stretch;
+}
+.plan {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-22xl);
+  font-size: var(--desk-txt-size);
+}
+.premium {
+  flex-direction: column;
+  gap: var(--gap-10xs);
+}
+.logo-placeholder,
+.premium,
+.user3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.user3 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-3xl);
+}
+.logo-placeholder {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-56xl) 0 var(--padding-55xl);
+}
+.icons {
+  height: 30px;
+  width: 30px;
+}
+.icons,
+.mis-credenciales4 {
+  position: relative;
+}
+.credentials,
+.labels1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.labels1 {
+  flex-direction: column;
+  padding: var(--padding-9xs-5) 0 0;
+}
+.credentials {
+  flex-direction: row;
+  gap: var(--gap-2xs);
+}
+.separators {
+  align-self: stretch;
+  height: 2px;
+  position: relative;
+  background-color: var(--color-white);
+}
+.sidebar-items {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.about-us-icon {
+  align-self: stretch;
+  width: 30px;
+  position: relative;
+  max-height: 100%;
+  min-height: 23px;
+}
+.familiar-afiliado4 {
+  width: calc(100% - 30px);
+  border: 0;
+  outline: 0;
+  font-family: var(--desk-h1);
+  font-size: var(--desk-txt-size);
+  background-color: transparent;
+  height: 23px;
+  flex: 1;
+  position: relative;
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 104px;
+  padding: 0;
+}
+.family1 {
+  width: 213px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.our-experience {
+  align-self: stretch;
+  height: 2px;
+  position: relative;
+  background-color: var(--color-white);
+}
+.affiliated3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.contact-us-icon {
+  align-self: stretch;
+  width: 22px;
+  position: relative;
+  max-height: 100%;
+  min-height: 28px;
+}
+.contact-us-parent,
+.frame-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-inner {
+  width: calc(100% - 22px);
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 25.5px;
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-10xs-5) 0 0;
+  box-sizing: border-box;
+  font-family: var(--desk-h1);
+  font-size: var(--desk-txt-size);
+  color: var(--color-white);
+  min-width: 104px;
+}
+.contact-us-parent {
+  width: 205px;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+}
+.instagram {
+  align-self: stretch;
+  height: 2px;
+  position: relative;
+  background-color: var(--color-white);
+}
+.resources {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.vector-icon24 {
+  height: 30px;
+  width: 30px;
+  position: relative;
+}
+.dar-de-baja4 {
+  align-self: stretch;
+  position: relative;
+}
+.dar-de-baja-wrapper2,
+.vector-parent9 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dar-de-baja-wrapper2 {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-9xs-5) 0 0;
+}
+.vector-parent9 {
+  width: 213px;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+}
+.linkedin-child {
+  align-self: stretch;
+  height: 2px;
+  position: relative;
+  background-color: var(--color-white);
+}
+.contensidebar4,
+.content4,
+.linkedin {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.linkedin {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+  text-align: left;
+}
+.contensidebar4,
+.content4 {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.contensidebar4 {
+  flex: 1;
+  flex-direction: column;
+  padding: 0 var(--padding-5xs) var(--padding-xl);
+  gap: var(--gap-41xl);
+}
+.content4 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-mini);
+  text-align: center;
+  font-size: var(--desk-txt-size);
+}
+.contactanos4 {
+  width: 259px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.pngwingcom-t {
+  width: 22px;
+  height: 22px;
+  position: relative;
+}
+.contact-us,
+.message-icon1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.message-icon1 {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+  margin-left: -240px;
+}
+.contact-us {
+  align-self: stretch;
+  flex-direction: row;
+  text-align: center;
+  font-size: var(--desk-txt-size);
+}
+.calle-principal-ciudad5,
+.direccin5 {
+  margin: 0;
+}
+.correo-electronico-contactot5,
+.direccin-123-calle-container5 {
+  width: 208px;
+  position: relative;
+  display: inline-block;
+}
+.nmero-de-telfono5,
+.p5 {
+  margin: 0;
+}
+.nmero-de-telfono-container5 {
+  width: 208px;
+  position: relative;
+  display: inline-block;
+}
+.address2,
+.footer2,
+.header1,
+.sidebar4 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.address2 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+}
+.footer2,
+.header1,
+.sidebar4 {
+  max-width: 100%;
+}
+.footer2 {
+  width: 353.5px;
+  flex-direction: row;
+  padding: 0 var(--padding-28xl);
+  box-sizing: border-box;
+  font-size: var(--desk-small-size);
+}
+.header1,
+.sidebar4 {
+  flex-direction: column;
+}
+.sidebar4 {
+  width: 457px;
+  border-radius: 0 var(--br-41xl) var(--br-41xl) 0;
+  background-color: var(--color-slateblue-100);
+  padding: var(--padding-29xl) var(--padding-26xl) var(--padding-74xl);
+  box-sizing: border-box;
+  gap: var(--gap-66xl);
+}
+.header1 {
+  margin-left: -701px;
+  width: 556px;
+  flex-shrink: 0;
+  color: var(--color-white);
+}
+.iconquote-large {
+  height: 70px;
+  width: 70px;
+  position: relative;
+}
+.turnos2 {
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 127px;
+}
+.appointment-type1,
+.menu-options1,
+.new-appointment {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.new-appointment {
+  flex-direction: column;
+  padding: var(--padding-xs-5) 0 0;
+}
+.appointment-type1,
+.menu-options1 {
+  flex-direction: row;
+}
+.appointment-type1 {
+  gap: var(--gap-lgi);
+}
+.menu-options1 {
+  padding: 0 var(--padding-xs);
+}
+.nuevo-turno3,
+.turnos-pendientes3 {
+  width: 124px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.turnos-pendientes3 {
+  width: 195px;
+}
+.turnos-pasados3 {
+  position: relative;
+}
+.list-items {
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-25xl);
+  white-space: nowrap;
+  text-align: left;
+  font-size: var(--desk-txt-size);
+  color: var(--color-black);
+  font-family: var(--desk-h1);
+}
+.what-our-clients-say-about-us {
+  height: 3px;
+  width: 154px;
+  position: relative;
+  border-radius: 0 var(--br-8xs) var(--br-8xs) 0;
+  background-color: var(--color-darkslateblue-200);
+}
+.barra-de-seleccion3 {
+  flex: 1;
+  background-color: var(--color-gainsboro-300);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.olvera-info {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.appointment-options-wrapper,
+.appointment-options1,
+.olvera-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.appointment-options1 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-4xs);
+}
+.appointment-options-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-6xs) var(--padding-6xs) var(--padding-smi);
+  box-sizing: border-box;
+}
+.datos-de-tu {
+  margin: 0;
+  width: 345px;
+  position: relative;
+  font-size: var(--desk-h2-size);
+  font-weight: 700;
+  font-family: var(--desk-h1);
+  color: var(--color-darkslategray-200);
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.datos-de-tu-turno-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-7xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.completa-el-siguiente1 {
+  flex: 1;
+  position: relative;
+  font-size: var(--desk-small-size);
+  font-family: var(--desk-h1);
+  color: var(--color-dimgray);
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+}
+.menu-options2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 66px var(--padding-9xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.cardiologa1,
+.especialidad1 {
+  position: relative;
+  font-family: var(--desk-h1);
+  text-align: left;
+}
+.especialidad1 {
+  align-self: stretch;
+  font-size: var(--desk-txt-size);
+  color: var(--color-black);
+  flex-shrink: 0;
+}
+.cardiologa1 {
+  flex: 1;
+  font-size: var(--desk-small-size);
+  color: var(--color-dimgray);
+  display: inline-block;
+  min-width: 63px;
+  max-width: 100%;
+}
+.contentroundgrayicon {
+  width: 20px;
+  height: 12px;
+  position: relative;
+  border-radius: var(--br-12xs);
+}
+.cardiology-icon,
+.daren-axell,
+.specialty {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cardiology-icon {
+  flex-direction: column;
+  padding: var(--padding-9xs-5) 0 0;
+}
+.daren-axell,
+.specialty {
+  align-self: stretch;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.daren-axell {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-100);
+  border: 3px solid var(--color-slateblue-200);
+  flex-direction: row;
+  padding: var(--padding-mid) var(--padding-26xl) var(--padding-mid)
+    var(--padding-mid);
+  gap: var(--gap-61xl);
+  min-height: 63px;
+  flex-shrink: 0;
+}
+.specialty {
+  height: 103px;
+  flex-direction: column;
+  padding: 0 0 var(--padding-9xs);
+  gap: var(--gap-base);
+}
+.tus-datos1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--desk-txt-size);
+  font-family: var(--desk-h1);
+  color: var(--color-black);
+  text-align: left;
+}
+.frame-parent10 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+}
+.dni1,
+.xxxxxxxx1 {
+  font-family: var(--desk-h1);
+  position: relative;
+  text-align: left;
+}
+.dni1 {
+  align-self: stretch;
+  font-size: var(--desk-txt-size);
+  color: var(--color-black);
+}
+.xxxxxxxx1 {
+  width: 410px;
+  border: 0;
+  outline: 0;
+  font-size: var(--desk-small-size);
+  background-color: transparent;
+  height: 19px;
+  color: var(--color-dimgray);
+  display: inline-block;
+  max-width: 100%;
+  padding: 0;
+}
+
+.xxxxx {
+  width: 50px;
+  border: 0;
+  outline: 0;
+  font-family: var(--desk-h3);
+  font-size: var(--desk-txt-size);
+  background-color: transparent;
+  height: 23px;
+  position: relative;
+  color: var(--color-darkslategray-200);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+
+.dni-parent,
+.input {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.input {
+  height: 63px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-100);
+  border: 3px solid var(--color-slateblue-200);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-xl-5) var(--padding-mid);
+}
+.dni-parent {
+  height: 97px;
+  flex-direction: column;
+  gap: var(--gap-sm);
+}
+.fecha1,
+.reserva1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--desk-txt-size);
+  font-family: var(--desk-h1);
+  color: var(--color-black);
+  text-align: left;
+}
+.menu-options3 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) 0 0;
+  box-sizing: border-box;
+  min-width: 179px;
+}
+.hora1 {
+  flex: 1;
+  position: relative;
+  font-size: var(--desk-txt-size);
+  font-family: var(--desk-h1);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 179px;
+}
+.date-time,
+.reserva-parent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.date-time {
+  flex-direction: row;
+  gap: var(--gap-12xl);
+}
+.reserva-parent {
+  flex-direction: column;
+  gap: 1px;
+}
+.ddmmaaaa1 {
+  width: 159px;
+  position: relative;
+  font-size: var(--desk-txt-size);
+  font-family: var(--desk-h1);
+  color: var(--color-dimgray);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.dion-channing-icon {
+  width: 20px;
+  height: 12px;
+  position: relative;
+  border-radius: var(--br-12xs);
+}
+.date-icon1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs-5) 0 0;
+}
+.date-value,
+.time-input {
+  border: 3px solid var(--color-slateblue-200);
+  background-color: var(--color-gray-100);
+  height: 63px;
+  flex: 1;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+}
+.date-value {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg-5) var(--padding-mid);
+  gap: var(--gap-26xl);
+}
+.time-input {
+  outline: 0;
+  min-width: 163px;
+}
+.date-value-parent,
+.frame-parent11 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.date-value-parent {
+  height: 60px;
+  flex-direction: row;
+  gap: var(--gap-12xl);
+}
+.frame-parent11 {
+  flex-direction: column;
+  gap: var(--gap-7xs);
+}
+.button-icon2 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  min-height: 20px;
+}
+.title36 {
+  position: relative;
+  font-size: var(--desk-small-size);
+  font-family: var(--desk-h1);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 73px;
+}
+.buttonprimary9 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl);
+  background-color: var(--color-darkslateblue-200);
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.buttonprimary9:hover,
+.view-label1:hover {
+  background-color: var(--color-mediumpurple-200);
+}
+.frame-form {
+  margin: 0;
+  align-self: stretch;
+  gap: var(--gap-15xl);
+}
+.frame-form,
+.turns,
+.turns-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.turns {
+  align-self: stretch;
+  gap: var(--gap-48xl);
+}
+.turns-wrapper {
+  width: 581px;
+  padding: var(--padding-21xl) 0 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.icons1,
+.icons2,
+.icons3 {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  min-height: 30px;
+}
+.turn-details {
+  width: 190px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.proximo-turno1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--desk-h3-size);
+  font-weight: 500;
+  font-family: inherit;
+}
+.clients-icon,
+.mayo1 {
+  position: absolute;
+  margin: 0 !important;
+}
+.clients-icon {
+  height: 20px;
+  width: 20px;
+  top: 13px;
+  left: 115px;
+}
+.mayo1 {
+  top: 13.5px;
+  left: 136px;
+  display: inline-block;
+  min-width: 40px;
+}
+.dom1,
+.jue1,
+.lun1,
+.mar1,
+.mie1,
+.sb1,
+.vie1 {
+  position: relative;
+  display: inline-block;
+  min-width: 31px;
+}
+.dom1,
+.jue1,
+.mar1,
+.mie1,
+.sb1,
+.vie1 {
+  min-width: 29px;
+}
+.dom1,
+.jue1,
+.mie1,
+.sb1,
+.vie1 {
+  min-width: 31px;
+}
+.dom1,
+.jue1,
+.sb1,
+.vie1 {
+  min-width: 27px;
+}
+.dom1,
+.sb1,
+.vie1 {
+  min-width: 23px;
+}
+.dom1,
+.sb1 {
+  min-width: 32px;
+}
+.dom1 {
+  min-width: 38px;
+}
+.day-names {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.c-f-o,
+.cfo-advisory,
+.forensic-services,
+.risk-management,
+.risk-management-intro,
+.small-business,
+.sustainability {
+  position: relative;
+  display: inline-block;
+  min-width: 9px;
+}
+.week-one {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.calendar-days1,
+.day-numbers {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.day-numbers {
+  flex-direction: row;
+  padding: 0 var(--padding-sm);
+  color: var(--color-black);
+}
+.calendar-days1 {
+  flex-direction: column;
+  gap: var(--gap-4xs);
+}
+.div30 {
+  color: var(--color-gray-200);
+}
+.div30,
+.div31,
+.div32 {
+  position: relative;
+  display: inline-block;
+  min-width: 9px;
+}
+.div32 {
+  width: 18px;
+  min-width: 18px;
+}
+.appointment-slots,
+.day-appointments {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.appointment-slots {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.day-appointments {
+  width: 90px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+  box-sizing: border-box;
+}
+.div33,
+.path {
+  position: relative;
+  display: inline-block;
+  min-width: 18px;
+}
+.path {
+  color: var(--color-black);
+}
+.appointment-time {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}
+.triangle,
+.triangle1 {
+  position: relative;
+  display: inline-block;
+  min-width: 18px;
+}
+.triangle1 {
+  color: var(--color-black);
+}
+.appointment-time1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}
+.lorem-ipsum-dolor1,
+.view-more {
+  position: relative;
+  display: inline-block;
+  min-width: 18px;
+}
+.view-more {
+  color: var(--color-black);
+}
+.appointment-time2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.day-appointments1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.path1 {
+  position: relative;
+  display: inline-block;
+  min-width: 18px;
+}
+.icon4,
+.triangle2 {
+  position: relative;
+  flex-shrink: 0;
+}
+.triangle2 {
+  display: inline-block;
+  min-width: 18px;
+}
+.icon4 {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: var(--color-darkslateblue-200);
+  z-index: 1;
+}
+.specialty-icon4 {
+  width: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) 0 var(--padding-5xs);
+  box-sizing: border-box;
+  margin-top: -2px;
+}
+.specialty1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.div34 {
+  position: relative;
+  display: inline-block;
+  min-width: 18px;
+}
+.appointment-details3,
+.time {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.time {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-3xs);
+  color: var(--color-black);
+}
+.appointment-details3 {
+  flex-direction: column;
+  gap: var(--gap-4xs);
+  color: var(--color-darkslateblue-200);
+}
+.appointment-info1 {
+  flex-direction: column;
+  gap: var(--gap-mini);
+  color: var(--color-black);
+}
+.appointment-info1,
+.appointments-days,
+.appointments3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.appointments3 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-base-5);
+  color: var(--color-gray-200);
+}
+.appointments-days {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-mini);
+}
+.div35,
+.div36 {
+  position: relative;
+  display: inline-block;
+  min-width: 18px;
+}
+.appointment-time3,
+.day-appointments2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.appointment-time3 {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.day-appointments2 {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-4xs) 0 0;
+}
+.path2,
+.path3 {
+  position: relative;
+  display: inline-block;
+  min-width: 18px;
+}
+.day-appointments3,
+.path-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.path-parent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.day-appointments3 {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs) 0 var(--padding-4xs);
+}
+.div37,
+.lorem-ipsum-dolor2 {
+  position: relative;
+  display: inline-block;
+  min-width: 18px;
+}
+.lorem-ipsum-dolor-sit-amet-con-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.day-appointments4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs) 0 var(--padding-4xs);
+}
+.path4,
+.triangle3 {
+  position: relative;
+  display: inline-block;
+  min-width: 9px;
+}
+.appointment-info2 {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-8xl);
+  color: var(--color-dimgray);
+}
+.appointment-info2,
+.appointments-week,
+.week-appointments {
+  display: flex;
+  justify-content: flex-start;
+}
+.week-appointments {
+  width: 69.5px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-mini);
+}
+.appointments-week {
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-10xs-5);
+  min-width: 176px;
+}
+.div38,
+.div39 {
+  position: relative;
+  display: inline-block;
+  min-width: 18px;
+}
+.appointment-time4,
+.time-slot {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.time-slot {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.appointment-time4 {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-10xs) 0 0;
+}
+.path5,
+.triangle4 {
+  position: relative;
+  display: inline-block;
+  min-width: 18px;
+}
+.appointment-info3,
+.day-appointments5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}
+.day-appointments5 {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-mini);
+}
+.patient-details,
+.patient-details1 {
+  position: relative;
+  display: inline-block;
+  min-width: 18px;
+}
+.appointment-info4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}
+.div40,
+.olvera-guides {
+  position: relative;
+  display: inline-block;
+  min-width: 9px;
+}
+.appointment-time5,
+.day-appointments6 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.appointment-time5 {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.day-appointments6 {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-8xs) 0 var(--padding-xs);
+  color: var(--color-dimgray);
+}
+.week-appointments1 {
+  width: 63px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.week-three {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-mini-5);
+}
+.clients,
+.week-three,
+.week-two {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.week-two {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-7xs);
+  color: var(--color-black);
+}
+.clients {
+  width: 271px;
+  margin: 0 !important;
+  position: absolute;
+  top: 42px;
+  left: 10px;
+  flex-direction: column;
+  gap: var(--gap-mini);
+  color: var(--color-darkslateblue-300);
+}
+.calendario1 {
+  align-self: stretch;
+  height: 238px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-11xl);
+  background-color: var(--color-lavender);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-2xs);
+  box-sizing: border-box;
+  position: relative;
+  gap: 9px 1px;
+  color: var(--color-black);
+}
+.label1 {
+  position: relative;
+  display: inline-block;
+  min-width: 86px;
+}
+.view-label {
+  box-shadow: var(--m3-elevation-light-1);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslateblue-200);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs-5) var(--padding-smi);
+}
+.ver1 {
+  position: relative;
+  font-size: var(--desk-small-size);
+  font-family: var(--desk-h1);
+  color: var(--color-gainsboro-100);
+  text-align: center;
+  display: inline-block;
+  min-width: 24px;
+}
+.view-label1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs-5) var(--padding-25xl);
+  background-color: var(--color-darkslateblue-200);
+  box-shadow: var(--m3-elevation-light-2);
+  border-radius: var(--br-3xs);
+  justify-content: flex-start;
+}
+.view-button-wrapper,
+.view-button1,
+.view-label1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.view-button1 {
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.view-button-wrapper {
+  justify-content: flex-end;
+  padding: 0 var(--padding-3xl);
+  text-align: left;
+  color: var(--color-white);
+}
+.c-f-o-advisory-icon,
+.label {
+  display: flex;
+  justify-content: flex-start;
+}
+.label {
+  width: 291px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-2xs-8);
+}
+.c-f-o-advisory-icon {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-26xl) var(--padding-4xs-5);
+}
+.iniciar-viedeollama1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.doctor-icon2 {
+  width: 118px;
+  height: 119px;
+  position: relative;
+  object-fit: contain;
+}
+.dr-maria-p4,
+.pediatria4 {
+  margin: 0;
+}
+.dr-maria-p-container4 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.specialty-icon5 {
+  width: 50px;
+  height: 40px;
+  position: relative;
+}
+.doctor-details1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.doctor-info5,
+.videollamada2 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+}
+.doctor-info5 {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-11xl);
+  background-color: var(--color-lavender);
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) var(--padding-4xs) var(--padding-11xl)
+    var(--padding-5xs);
+}
+.videollamada2 {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) 0;
+}
+.risk-management-icon {
+  width: 355.7px;
+  height: 397px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-20xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  color: var(--color-darkslateblue-300);
+}
+.video-call-button1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xs-1);
+  max-width: 100%;
+}
+.next-turn,
+.video-call-button-wrapper {
+  align-self: stretch;
+  display: flex;
+  max-width: 100%;
+}
+.video-call-button-wrapper {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xl) 0 0;
+  box-sizing: border-box;
+  font-size: var(--desk-h3-size);
+}
+.next-turn {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-36xl-5);
+}
+.gestion-de-turnos1,
+.next-turn-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.next-turn-wrapper {
+  width: 397px;
+  flex-direction: column;
+  padding: var(--padding-5xl) 0 0;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--desk-small-size);
+}
+.gestion-de-turnos1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 97px 0 700px;
+  gap: 145px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--desk-h2-size);
+  color: var(--color-darkslategray-200);
+  font-family: var(--desk-h1);
+}
+@media screen and (max-width: 1825px) {
+  .gestion-de-turnos1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .gestion-de-turnos1 {
+    gap: 72px;
+    padding-left: 350px;
+    padding-right: var(--padding-29xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .maria-perez6 {
+    font-size: var(--font-size-13xl);
+  }
+  .sidebar4 {
+    padding-top: var(--padding-12xl);
+    padding-bottom: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+  .turnos2 {
+    font-size: var(--font-size-13xl);
+  }
+  .list-items {
+    flex-wrap: wrap;
+    gap: var(--gap-3xl);
+  }
+  .datos-de-tu {
+    font-size: var(--font-size-13xl);
+  }
+  .menu-options2 {
+    padding-left: var(--padding-14xl);
+    padding-right: var(--padding-14xl);
+    box-sizing: border-box;
+  }
+  .daren-axell {
+    flex-wrap: wrap;
+    gap: var(--gap-21xl);
+    padding-right: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+  .specialty {
+    height: auto;
+  }
+  .date-time {
+    flex-wrap: wrap;
+  }
+  .date-time,
+  .date-value-parent {
+    gap: var(--gap-mini);
+  }
+  .frame-form {
+    gap: var(--gap-mid);
+  }
+  .turns {
+    gap: var(--gap-14xl);
+  }
+  .dr-maria-p-container4,
+  .iniciar-viedeollama1,
+  .proximo-turno1 {
+    font-size: var(--font-size-5xl);
+  }
+  .gestion-de-turnos1 {
+    gap: 36px;
+    padding-left: 175px;
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .maria-perez6 {
+    font-size: var(--font-size-5xl);
+  }
+  .plan-premium4 {
+    font-size: var(--desk-small-size);
+  }
+  .logo-placeholder {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .dar-de-baja4,
+  .familiar-afiliado4,
+  .mis-credenciales4 {
+    font-size: var(--desk-small-size);
+  }
+  .contensidebar4 {
+    gap: var(--gap-11xl);
+  }
+  .contactanos4 {
+    font-size: var(--desk-small-size);
+  }
+  .footer2,
+  .sidebar4 {
+    box-sizing: border-box;
+  }
+  .footer2 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+  }
+  .sidebar4 {
+    gap: var(--gap-23xl);
+    padding: var(--padding-xl) var(--padding-3xl) var(--padding-20xl);
+  }
+  .turnos2 {
+    font-size: var(--font-size-5xl);
+  }
+  .nuevo-turno3,
+  .turnos-pasados3,
+  .turnos-pendientes3 {
+    font-size: var(--desk-small-size);
+  }
+  .datos-de-tu {
+    font-size: var(--font-size-5xl);
+  }
+  .especialidad1 {
+    font-size: var(--desk-small-size);
+  }
+  .daren-axell {
+    gap: var(--gap-xl);
+  }
+  .ddmmaaaa1,
+  .dni1,
+  .fecha1,
+  .hora1,
+  .reserva1,
+  .tus-datos1 {
+    font-size: var(--desk-small-size);
+  }
+  .date-value {
+    gap: var(--gap-3xl);
+  }
+  .turns {
+    gap: var(--gap-mid);
+  }
+  .proximo-turno1 {
+    font-size: var(--font-size-lg);
+  }
+  .day-names {
+    flex-wrap: wrap;
+  }
+  .c-f-o,
+  .cfo-advisory,
+  .forensic-services,
+  .risk-management,
+  .risk-management-intro,
+  .small-business,
+  .sustainability {
+    width: 100%;
+    height: 9px;
+  }
+  .week-one,
+  .week-three {
+    flex-wrap: wrap;
+  }
+  .calendario1 {
+    height: auto;
+    min-height: 238;
+  }
+  .c-f-o-advisory-icon {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .dr-maria-p-container4,
+  .iniciar-viedeollama1 {
+    font-size: var(--font-size-lg);
+  }
+  .doctor-details1 {
+    gap: var(--gap-base);
+  }
+  .doctor-info5 {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .next-turn {
+    gap: var(--gap-9xl);
+  }
+  .gestion-de-turnos1 {
+    gap: var(--gap-lg);
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+
+.datos-de-pago {
+  margin: 0;
+  width: 297px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.datos-de-pago {
+  font-size: var(--font-size-13xl);
+}
+
+.datos-de-pago {
+  font-size: var(--font-size-5xl);
+}
+
+.payment-details {
+  padding-left: var(--padding-xl);
+  box-sizing: border-box;
+}
+
+.payment-details {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-65xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--desk-txt-size);
+  color: var(--color-black);
+}
+
+.payment-details,
+.sidebar-parent {
+  box-sizing: border-box;
+}
+
+.card-info,
+.payment-action {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.payment-action {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 18px;
+  font-size: var(--desk-small-size);
+  color: var(--color-white);
+}
+.card-info {
+  width: 575px;
+  align-items: flex-end;
+  gap: 24px;
+  max-width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.holder-info,
+.holder-info1 {
+  flex-wrap: wrap;
+}
+
+.holder-info,
+.security-info,
+.security-input {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.security-input {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-100);
+  border: 3px solid var(--color-darkslateblue-200);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-mini) var(--padding-mid);
+}
+
+.security-info {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-7xs);
+  min-width: 179px;
+}
+
+.holder-info {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 var(--padding-8xs) 0 0;
+  gap: var(--gap-xl);
+}
+
+.holder-details,
+.holder-values {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.holder-details {
+  height: 79px;
+  width: 275px;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+  gap: var(--gap-7xs);
+}
+
+.nombre-del-titular {
+  align-self: stretch;
+  position: relative;
+}
+
+.cdigo-de-seguridad,
+.enero,
+.fecha-de-expiracin,
+.nombre-del-titular,
+.numero-de-tarjeta,
+.security-code,
+.xxxxx {
+  font-size: var(--desk-small-size);
+}
+
+.numero-de-tarjeta {
+  align-self: stretch;
+  position: relative;
+}
+
+.cdigo-de-seguridad {
+  align-self: stretch;
+  position: relative;
+}
+
+.holder-values {
+  align-self: stretch;
+  height: 63px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-100);
+  border: 3px solid var(--color-darkslateblue-200);
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-lg-5) var(--padding-mid);
+  white-space: nowrap;
+  flex-shrink: 0;
+  color: var(--color-darkslategray-200);
+}
+
+.maria-perez1 {
+  position: relative;
+  display: inline-block;
+  min-width: 105px;
+}
+
+.card-number,
+.card-number-input {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.card-number-input {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-100);
+  border: 3px solid var(--color-darkslateblue-200);
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-mid);
+  width: 99%;
+}
+.card-number {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-mini);
+}
+
+.xxxxxxxxxxxxxxxx {
+  width: 410px;
+  border: 0;
+  outline: 0;
+  font-family: var(--desk-h3);
+  font-size: var(--desk-small-size);
+  background-color: transparent;
+  height: 19px;
+  position: relative;
+  color: var(--color-dimgray);
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+  padding: 0;
+}
+
+.holder-info1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 3px 0 0;
+  gap: var(--gap-3xl);
+}
+
+.fecha-de-expiracin-parent {
+  height: 89px;
+  width: 275px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-7xs);
+}
+
+.fecha-de-expiracin {
+  align-self: stretch;
+  position: relative;
+}
+
+.enero-wrapper {
+  align-self: stretch;
+  height: 63px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-100);
+  border: 3px solid var(--color-darkslateblue-200);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-lg-5) var(--padding-mid);
+}
+
+.enero {
+  width: 158px;
+  border: 0;
+  outline: 0;
+  font-family: var(--desk-h3);
+  font-size: var(--desk-txt-size);
+  background-color: transparent;
+  height: 23px;
+  position: relative;
+  color: var(--color-dimgray);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+
+.holder-info-inner {
+  height: 60px;
+  width: 275px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.security-code-wrapper {
+  align-self: stretch;
+  height: 63px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-100);
+  border: 3px solid var(--color-darkslateblue-200);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-lg-5) var(--padding-mid);
+}
+
+.security-code {
+  width: 160px;
+  border: 0;
+  outline: 0;
+  font-family: var(--desk-h3);
+  font-size: var(--desk-txt-size);
+  background-color: transparent;
+  height: 23px;
+  position: relative;
+  color: var(--color-dimgray);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+
+.buttonprimary1 {
+  cursor: pointer;
+  border: 0;
+  padding: 1.5%;
+  background-color: var(--color-darkslateblue-200);
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color:#fff;
+}
+.buttonprimary1:hover,
+.view-more1:hover {
+  background-color: var(--color-mediumpurple-200);
+}
+
+.button-icon,
+.title {
+  position: relative;
+}
+.button-icon {
+  height: 9.3px;
+  width: 15px;
+  border-radius: 1px;
+}
+
+#buttonClose{
+  padding: 1.5%;
+  background-color: #bd3c3c;
+}
