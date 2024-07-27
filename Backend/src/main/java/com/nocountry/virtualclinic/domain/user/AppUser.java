@@ -10,21 +10,31 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 
 @Entity(name= "User")
-@Table(name = "users")
+@Table(name = "usuarios")
 
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@EqualsAndHashCode(of = "id")
+@EqualsAndHashCode
 public class AppUser implements UserDetails {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Long usuarioId;
+
+    @Column(name = "usuario", unique = true, nullable = false)
     private String login;
+
     private String clave;
 
+    public AppUser(String username, String password) {
+        this.login = username;
+        this.clave= password;
+    }
+
+
+    //Métodos de UserDetails
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return List.of(new SimpleGrantedAuthority("ROLE_USER"));
@@ -60,6 +70,10 @@ public class AppUser implements UserDetails {
         return true;
     }
 }
+
+
+
+
 //    @Id
 //    @GeneratedValue(strategy=GenerationType.IDENTITY)
 //    private Long id;
