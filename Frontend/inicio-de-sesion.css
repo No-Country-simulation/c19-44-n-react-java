@@ -1,0 +1,427 @@
+.input-login {
+  position: relative;
+  width: fit-content; /* Ajusta esto según sea necesario */
+  width: 100%;
+}
+
+.input-icon {
+  position: absolute;
+  left: 10px; /* Espaciado desde el borde izquierdo del contenedor */
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px; /* Ajusta el tamaño de la imagen según sea necesario */
+  height: 20px; /* Ajusta el tamaño de la imagen según sea necesario */
+  pointer-events: none; /* Para que la imagen no interfiera con el input */
+}
+
+.inp_inicio {
+  padding: 10px 10px 10px 40px; /* Asegúrate de que el padding izquierdo sea suficiente para la imagen */
+  background-color: transparent;
+  border: 3px solid white; /* Opcional: añade un borde para mayor visibilidad */
+  color: white;
+  outline: none;
+  font-size: 16px;
+  border-radius: var(--br-3xs);
+  width: 86%;
+  height: 33px;
+}
+
+.inp_inicio::placeholder {
+  color: white;
+}
+
+.hero-icon1 {
+  width: 100%;
+  height: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.inicio-de-sesion-child {
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+  z-index: 1;
+}
+.weuiback-filled-icon5 {
+  width: 40px;
+  height: 70px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.bienvenido-a-telemedicina2 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.crea-una-cuenta2 {
+  align-self: stretch;
+  position: relative;
+  z-index: 2;
+}
+.medicina4 {
+  color: var(--color-white);
+}
+.telemedicina3 {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.telemedicina-container {
+  width: 610px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-20xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-45xl);
+  color: var(--color-slateblue-200);
+  font-family: var(--font-inter);
+}
+.crea-una-cuenta-y-disfruta-de-group,
+.frame-wrapper4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.crea-una-cuenta-y-disfruta-de-group {
+  align-self: stretch;
+  gap: var(--gap-131xl-8);
+}
+.frame-wrapper4 {
+  width: 673.3px;
+  padding: var(--padding-18xl-2) 0 0;
+  box-sizing: border-box;
+  min-width: 673.3px;
+}
+.registrate2 {
+  margin: 0;
+  height: 67px;
+  position: relative;
+  font-size: var(--desk-h2-size);
+  font-weight: 700;
+  font-family: var(--desk-h1);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+}
+.registrate-container {
+  width: 393px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.icbaseline-account-circle-icon2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.nombre1 {
+  width: 410px;
+  border: 0;
+  outline: 0;
+  font-family: var(--desk-h1);
+  font-size: var(--desk-small-size);
+  background-color: transparent;
+  height: 19px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 9.5px);
+  right: -68px;
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.icbaseline-account-circle-parent {
+  align-self: stretch;
+  height: 63px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-100);
+  border: 3px solid var(--color-white);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg) var(--padding-mid);
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.icsharp-lock-icon4 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.contrasea1 {
+  width: 406px;
+  border: 0;
+  outline: 0;
+  font-family: var(--desk-h1);
+  font-size: var(--desk-small-size);
+  background-color: transparent;
+  height: 19px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 9.5px);
+  right: -64px;
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.by-mars-by-ghc-on-jun {
+  align-self: stretch;
+  height: 63px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-100);
+  border: 3px solid var(--color-white);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg) var(--padding-mid);
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.by-mars-by-ghc-on-jun1 {
+  margin: 0;
+  height: 16px;
+  width: 15px;
+  position: relative;
+  border: 0 solid var(--color-darkslategray-200);
+  box-sizing: border-box;
+}
+.acepto-los-trminos2 {
+  flex: 1;
+  position: relative;
+  font-size: var(--desk-small-size);
+  font-family: var(--desk-h1);
+  color: var(--color-white);
+  text-align: left;
+}
+.by-mars-by-ghc-on-jun-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.text {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-size: var(--desk-small-size);
+  font-family: var(--desk-h1);
+  color: var(--color-white);
+  white-space: pre-wrap;
+  text-align: left;
+}
+.frame-parent13,
+.input-fields,
+.text-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text-wrapper {
+  width: 170.8px;
+  flex: 1;
+  flex-direction: row;
+  padding: 0 var(--padding-4xl);
+  box-sizing: border-box;
+}
+.frame-parent13,
+.input-fields {
+  width: 246.5px;
+  height: 39.8px;
+  flex-direction: column;
+  gap: var(--gap-11xs-8);
+}
+.input-fields {
+  width: 393px;
+  height: 199.8px;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.title37 {
+  position: relative;
+  font-size: var(--desk-small-size);
+  font-family: var(--desk-h1);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 95px;
+}
+.buttonprimary10,
+.registro2 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.buttonprimary10 {
+  cursor: pointer;
+  border: 3px solid var(--color-white);
+  padding: var(--padding-mid) var(--padding-xl);
+  background-color: transparent;
+  width: 393px;
+  border-radius: var(--br-5xs);
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.buttonprimary10:hover {
+  background-color: var(--color-gainsboro-500);
+  border: 3px solid var(--color-gainsboro-400);
+  box-sizing: border-box;
+}
+.registro2 {
+  margin: 0;
+  width: 565px;
+  border-radius: var(--br-41xl) 0 0 var(--br-41xl);
+  background-color: var(--color-slateblue-200);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 118.6px var(--padding-xl) 179.6px;
+  gap: var(--gap-3xs);
+  opacity: 0.85;
+  min-width: 565px;
+  z-index: 2;
+}
+.bienvenido-a-telemedicina-group,
+.frame-parent12 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-parent12 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--desk-small-size);
+}
+.bienvenido-a-telemedicina-group {
+  width: 1559px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.inicio-de-sesion,
+.inicio-de-sesion-inner {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.inicio-de-sesion-inner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-8xs) 0 0;
+  max-width: 100%;
+}
+.inicio-de-sesion {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-7xl) var(--padding-16xl) var(--padding-199xl);
+  gap: var(--gap-51xl);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--desk-h2-size);
+  color: var(--color-white);
+  font-family: var(--desk-h1);
+}
+@media screen and (max-width: 1325px) {
+  .frame-wrapper4,
+  .registro2 {
+    flex: 1;
+  }
+  .frame-parent12 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .inicio-de-sesion {
+    gap: var(--gap-16xl);
+  }
+}
+@media screen and (max-width: 800px) {
+  .bienvenido-a-telemedicina2 {
+    font-size: var(--font-size-13xl);
+  }
+  .telemedicina3 {
+    font-size: var(--font-size-32xl);
+  }
+  .crea-una-cuenta-y-disfruta-de-group {
+    gap: var(--gap-56xl);
+  }
+  .frame-wrapper4 {
+    min-width: 100%;
+  }
+  .registrate2 {
+    font-size: var(--font-size-13xl);
+  }
+  .registro2 {
+    padding-top: 77px;
+    padding-bottom: 117px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .inicio-de-sesion {
+    gap: var(--gap-mid);
+  }
+}
+@media screen and (max-width: 450px) {
+  .bienvenido-a-telemedicina2 {
+    font-size: var(--font-size-5xl);
+  }
+  .telemedicina3 {
+    font-size: var(--font-size-19xl);
+  }
+  .crea-una-cuenta-y-disfruta-de-group {
+    gap: var(--gap-19xl);
+  }
+  .registrate2 {
+    font-size: var(--font-size-5xl);
+  }
+}

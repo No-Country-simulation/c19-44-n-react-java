@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./gestion-de-turnos.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap"
+    />
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.js" integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.full.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+    
+    <div class="gestion-de-turnos1">
+      <div class="header1">
+        <div class="sidebar4">
+          <div class="logo-placeholder" style="width: 140%; margin-left: -18%;">
+            <div>
+              <a href="#" id="btn_back"><img class="weuiback-filled-icon4" loading="lazy" src="./public/back_white.svg" style="width: 50%;"/></a>
+            </div>
+            <div class="user3">
+              <div class="user-name2">
+                <img
+                  class="user-icon"
+                  loading="lazy"
+                  alt=""
+                  src="./public/vector-4.png"
+                />
+              </div>
+              <div class="premium">
+                <h1 class="maria-perez6">Maria Perez</h1>
+                <div class="plan">
+                  <div class="plan-premium4">Plan/ Premium</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content4">
+            <div class="contensidebar4">
+              <div class="sidebar-items option_menu">
+                <div class="credentials">
+                  <img
+                    class="icons"
+                    loading="lazy"
+                    alt=""
+                    src="./public/icons/Vector-4.svg"
+                  />
+
+                  <div class="labels1">
+                    <div class="mis-credenciales4">Mis Credenciales</div>
+                  </div>
+                </div>
+                <div class="separators"></div>
+              </div>
+              <div class="affiliated3 option_menu">
+                <div class="family1 credentials">
+                  <img
+                    class="about-us-icon"
+                    alt=""
+                    src="./public/icons/Vector-perfil.svg"
+                  />
+
+                  <div class="familiar-afiliado4">Familiar afiliado</div>
+                </div>
+                <div class="our-experience"></div>
+              </div>
+              <div class="resources option_menu">
+                <div class="contact-us-parent credentials">
+                  <img
+                    class="contact-us-icon"
+                    alt=""
+                    src="./public/icons/Vector-perfil-1.svg"
+                  />
+                  <div class="frame-inner">Mi Facturacion</div>
+                </div>
+                <div class="instagram"></div>
+              </div>
+              <div class="linkedin option_menu">
+                <div class="vector-parent9 credentials">
+                  <img
+                    class="vector-icon24"
+                    alt=""
+                    src="./public/icons/Vector-perfil-2.svg"
+                  />
+
+                  <div class="dar-de-baja-wrapper2">
+                    <div class="dar-de-baja4">Dar de baja</div>
+                  </div>
+                </div>
+                <div class="linkedin-child"></div>
+              </div>
+            </div>
+          </div>
+          <div class="footer2">
+            <div class="address2">
+              <div class="contact-us">
+                <div class="contactanos4">Contactanos</div>
+                <div class="message-icon1">
+                  <img
+                    class="pngwingcom-t"
+                    loading="lazy"
+                    alt=""
+                    src="./public/icons/Vector-8.svg"
+                  />
+                </div>
+              </div>
+              <div class="direccin-123-calle-container5">
+                <p class="direccin5">Dirección:</p>
+                <p class="calle-principal-ciudad5">
+                  123 Calle Principal, Ciudad, País
+                </p>
+              </div>
+              <div class="correo-electronico-contactot5">
+                Correo electronico: contacto@tuempresa.com
+              </div>
+              <div class="nmero-de-telfono-container5">
+                <p class="nmero-de-telfono5">Número de teléfono:</p>
+                <p class="p5">+123045607890</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="turns-wrapper">
+        <div class="turns">
+          <div class="menu-options1">
+            <div class="appointment-type1">
+              <img
+                class="iconquote-large"
+                loading="lazy"
+                alt=""
+                src="./public/vector-11.svg"
+              />
+
+              <div class="new-appointment">
+                <a class="turnos2">Turnos </a>
+              </div>
+            </div>
+          </div>
+          <div class="appointment-options-wrapper">
+            <div class="appointment-options1">
+              <nav class="list-items">
+                <div class="nuevo-turno3">Nuevo Turno</div>
+                <div class="turnos-pendientes3">Turnos Pendientes</div>
+                <div class="turnos-pasados3">Turnos Pasados</div>
+              </nav>
+              <div class="olvera-info">
+                <div class="barra-de-seleccion3">
+                  <div class="what-our-clients-say-about-us"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="frame-form">
+            <div class="frame-parent10">
+              <div class="datos-de-tu-turno-wrapper">
+                <h1 class="datos-de-tu">Datos de tu turno</h1>
+              </div>
+              <div class="menu-options2">
+                <div class="completa-el-siguiente1">
+                  Completa el siguiente formulario para reservar un turno.
+                </div>
+              </div>
+              <div class="specialty">
+                <div class="especialidad1">Especialidad</div>
+                <select name="" id="slc_turnos" class="daren-axell" style="font-size: 20px;">
+                  <option value="Cardiología">Cardiología</option>
+                  <option value="Ginecología">Ginecología</option>
+                  <option value="Oftalmología">Oftalmología</option>
+                  <option value="Pediatría">Pediatría</option>
+                </select>
+              </div>
+              <div class="tus-datos1">Tus datos</div>
+            </div>
+            <div class="dni-parent">
+              <div class="dni1">DNI</div>
+              <input class="xxxxxxxx1 input" id="inp_dni" placeholder=".:: Ingresa el DNI ::." type="text" style="width: 100%;" />
+              
+            </div>
+            <div class="frame-parent11">
+              <div class="reserva-parent">
+                <div class="reserva1">Reserva</div>
+                <div class="date-time">
+                  <div class="menu-options3">
+                    <div class="fecha1">Fecha</div>
+                  </div>
+                </div>
+              </div>
+              <div class="date-value-parent">
+                <input id="fecha_hora" type="text" >
+              </div>
+            </div>
+            <button class="buttonprimary9 title36" id="btn_agendar">
+              <img class="button-icon2" alt="" src="./public/vector-92.svg" />AGENDAR
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="next-turn-wrapper">
+        <div class="next-turn">
+          <div class="turn-details">
+            <img
+              class="icons1"
+              loading="lazy"
+              alt=""
+              src="./public/Vector.png"
+            />
+
+            <img
+              class="icons2"
+              loading="lazy"
+              alt=""
+              src="./public/Vector-1.png"
+            />
+
+            <img
+              class="icons3"
+              loading="lazy"
+              alt=""
+              src="./public/Vector-2.png"
+            />
+          </div>
+          <div class="c-f-o-advisory-icon">
+            <div class="label">
+              <h2 class="proximo-turno1">Proximo Turno</h2>
+              <div class="calendario1">
+                <img
+                  class="clients-icon"
+                  loading="lazy"
+                  alt=""
+                  src="./public/Vector-11.svg"
+                />
+
+                <div class="mayo1">Mayo</div>
+                <div class="clients">
+                  <div class="calendar-days1">
+                    <div class="day-names">
+                      <div class="lun1">Lun.</div>
+                      <div class="mar1">Mar</div>
+                      <div class="mie1">Mie.</div>
+                      <div class="jue1">Jue</div>
+                      <div class="vie1">Vie</div>
+                      <div class="sb1">Sáb.</div>
+                      <div class="dom1">Dom.</div>
+                    </div>
+                    <div class="day-numbers">
+                      <div class="week-one">
+                        <div class="risk-management-intro">1</div>
+                        <div class="c-f-o">2</div>
+                        <div class="sustainability">3</div>
+                        <div class="small-business">4</div>
+                        <div class="forensic-services">5</div>
+                        <div class="risk-management">6</div>
+                        <div class="cfo-advisory">7</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="week-two">
+                    <div class="week-three">
+                      <div class="appointments-week">
+                        <div class="appointments-days">
+                          <div class="day-appointments">
+                            <div class="appointment-slots">
+                              <div class="div30">8</div>
+                              <div class="div31">9</div>
+                              <div class="div32">10</div>
+                            </div>
+                          </div>
+                          <div class="appointments3">
+                            <div class="day-appointments1">
+                              <div class="appointment-time">
+                                <div class="div33">15</div>
+                                <div class="path">16</div>
+                              </div>
+                              <div class="appointment-time1">
+                                <div class="triangle">22</div>
+                                <div class="triangle1">23</div>
+                              </div>
+                              <div class="appointment-time2">
+                                <div class="lorem-ipsum-dolor1">29</div>
+                                <div class="view-more">30</div>
+                              </div>
+                            </div>
+                            <div class="appointment-info1">
+                              <div class="path1">17</div>
+                              <div class="appointment-details3">
+                                <div class="specialty1">
+                                  <div class="triangle2">24</div>
+                                  <div class="specialty-icon4">
+                                    <div class="icon4"></div>
+                                  </div>
+                                </div>
+                                <div class="time">
+                                  <div class="div34">31</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="week-appointments">
+                          <div class="day-appointments2">
+                            <div class="appointment-time3">
+                              <div class="div35">11</div>
+                              <div class="div36">12</div>
+                            </div>
+                          </div>
+                          <div class="day-appointments3">
+                            <div class="path-parent">
+                              <div class="path2">18</div>
+                              <div class="path3">19</div>
+                            </div>
+                          </div>
+                          <div class="day-appointments4">
+                            <div class="lorem-ipsum-dolor-sit-amet-con-parent">
+                              <div class="lorem-ipsum-dolor2">25</div>
+                              <div class="div37">26</div>
+                            </div>
+                          </div>
+                          <div class="appointment-info2">
+                            <div class="path4">1</div>
+                            <div class="triangle3">2</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="week-appointments1">
+                        <div class="day-appointments5">
+                          <div class="appointment-time4">
+                            <div class="time-slot">
+                              <div class="div38">13</div>
+                              <div class="div39">14</div>
+                            </div>
+                          </div>
+                          <div class="appointment-info3">
+                            <div class="path5">20</div>
+                            <div class="triangle4">21</div>
+                          </div>
+                        </div>
+                        <div class="appointment-info4">
+                          <div class="patient-details">27</div>
+                          <div class="patient-details1">28</div>
+                        </div>
+                        <div class="day-appointments6">
+                          <div class="appointment-time5">
+                            <div class="olvera-guides">3</div>
+                            <div class="div40">4</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="view-button-wrapper">
+                <div class="view-button1">
+                  <div class="view-label">
+                    <div class="label1">24/04/2024</div>
+                  </div>
+                  <button class="view-label1">
+                    <div class="ver1">Ver</div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video-call-button-wrapper">
+            <div class="video-call-button1">
+              <h2 class="iniciar-viedeollama1">Iniciar viedeollama</h2>
+              <div class="risk-management-icon">
+                <div class="videollamada2">
+                  <div class="doctor-info5">
+                    <div class="doctor-details1">
+                      <img
+                        class="doctor-icon2"
+                        loading="lazy"
+                        alt=""
+                        src="./public/vector-141@2x.png"
+                      />
+
+                      <h2 class="dr-maria-p-container4">
+                        <p class="dr-maria-p4">Dr. Maria P</p>
+                        <p class="pediatria4">Pediatria</p>
+                      </h2>
+                      <img
+                        class="specialty-icon5"
+                        loading="lazy"
+                        alt=""
+                        src="./public/Vector-10.svg"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="miModal" tabindex="-1" aria-labelledby="miModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content" style="width: 160%; left: -35%;">
+          <div class="modal-header" style="background: #6c4cab; color: #fff;">
+            <h4 class="modal-title" id="miModalLabel">Formulario de pagos</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar" id="cerrarModal">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="col-lg-12">
+              <h5>Datos del turno:</h5>
+                <div id="id_div_turno">
+                    <label for="">Usted esta solicitando turno para: <b><span id="turno"></span></b></label>                    
+                </div>
+                <div id="div_dni">
+                  <label for="">DNI: <b><span id="dni"></span></b></label>                    
+                </div>
+                <div id="div_fecha">
+                  <label for="">Fecha: <b><span id="fecha"></span></b></label>                    
+                </div>
+            </div>
+            <hr>
+            <div class="col-lg-12">
+              <h5 class="datos-de-pago">Datos de pago</h5>
+              <div class="payment-details">
+                <div class="card-info">
+                  <div class="holder-info">
+                    <div class="security-info">
+                      <div class="nombre-del-titular">Nombre del Titular</div>
+                      <input class="xxxxx security-input" id="nombre_mtp" style="width: 100%; height: 20%;" disabled value="Maria perez" type="text" />
+                    </div>
+                    <div class="security-info">
+                      <div class="cdigo-de-seguridad">Código de seguridad</div>
+                      <input class="xxxxx security-input" id="cod_mtp" style="width: 100%; height: 20%;" placeholder=".:: COD ::." type="text" />
+                    </div>
+                  </div>
+                  <div class="card-number">
+                    <div class="numero-de-tarjeta">Numero de Tarjeta</div>
+                    <input class="xxxxx security-input" id="numero_tarjeta_mtp" style="width: 99%; height: 20%;" placeholder=".:: Numero de tarjeta ::." type="text" />
+                  </div>
+                  <div class="holder-info1" style="width: 100%;">
+                    <div class="fecha-de-expiracin-parent">
+                      <div class="fecha-de-expiracin">Fecha de expiración</div>
+                      <input class="xxxxx security-input" id="fecha_expiracion_mtp" style="width: 100%; height: 20%;" placeholder=".:: Fecha expiración ::." type="text" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" id="buttonClose" data-dismiss="modal">Cancelar</button>
+            <button type="button" class="buttonprimary1" id="buttonprimary">Realizar pago</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+  <script>
+    $(document).ready(function() {
+      $('#inp_dni').on('keypress', function(event) {
+          var charCode = (event.which) ? event.which : event.keyCode;
+          // Permitir solo números y teclas de control
+          if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+              event.preventDefault();
+          }
+      });
+
+      $('#fecha_hora').datetimepicker({
+          format: 'd/m/Y H:i', // Formato de fecha y hora
+          step: 30, // Paso de minutos (opcional)
+          timepickerScrollbar: true // Habilitar scrollbar en el timepicker (opcional)
+      });
+    })
+
+    $("#btn_agendar").on("click", function(){
+      if($("#inp_dni").val() == ""){
+          swal.fire("Datos incompletos", "El campo <b>DNI</b> no puede estar vacio", "info");
+          $("#inp_dni").focus();
+      }else if($("#fecha_hora").val() == ""){
+          swal.fire("Datos incompletos", "Debe seleccion una fecha para su cita", "info");
+          $("#fecha_hora").focus();
+      }else{
+          //window.location.href = "realizar-pago.html";
+          $("#turno").append($("#slc_turnos").val());
+          $("#dni").append($("#inp_dni").val());
+          $("#fecha").append($("#fecha_hora").val());
+
+          $('#miModal').modal('show');
+      }
+    })
+
+    $("#btn_back").on("click", function(){
+      window.location.href = "perfil-usuario.html";
+    });
+
+    $("#buttonClose").on("click", function(){
+      $('#miModal').modal('hide');
+    });
+
+    $("#buttonprimary").on("click", function(){
+      if($("#cod_mtp").val() == ""){
+          swal.fire("Datos incompletos", "El campo <b>Codigo de seguridad</b> no puede estar vacio", "info");
+          $("#cod_mtp").focus();
+      }else if($("#numero_tarjeta_mtp").val() == ""){
+          swal.fire("Datos incompletos", "El campo <b>Numero de tarjeta</b> no puede estar vacio", "info");
+          $("#numero_tarjeta_mtp").focus();
+      }else if($("#fecha_expiracion_mtp").val() == ""){
+          swal.fire("Datos incompletos", "El campo <b>Fecha expiración</b> no puede estar vacio", "info");
+          $("#fecha_expiracion_mtp").focus();
+      }else{
+        Swal.fire({
+          title: "¿Esta de acuerdo?",
+          text: "Se realizara el pago para su consulta",
+          icon: "info",
+          showCancelButton: true,
+          confirmButtonColor: "#3085d6",
+          cancelButtonColor: "#d33",
+          confirmButtonText: "Si, pagar",
+          cancelButtonText: "No, cancelar",
+        }).then((result) => {
+          if (result.isConfirmed) {
+            Swal.fire({
+              title: "¡Pago realizado!",
+              text: "El pago se ha realizado correctamente.",
+              icon: "success"
+            });
+            $("#inp_dni").val("");
+            $("#fecha_hora").val("");
+            $("#cod_mtp").val("");
+            $("#numero_tarjeta_mtp").val("");
+            $("#fecha_expiracion_mtp").val("");
+            $('#miModal').modal('hide');
+          }
+        });
+      }
+    });
+
+    $("#cerrarModal").on("click", function(){
+      $('#miModal').modal('hide');
+    });
+  </script>
+</html>
