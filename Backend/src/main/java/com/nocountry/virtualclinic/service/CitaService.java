@@ -2,6 +2,7 @@ package com.nocountry.virtualclinic.service;
 
 import com.nocountry.virtualclinic.domain.cita.Cita;
 import com.nocountry.virtualclinic.domain.cita.CitaRepository;
+import com.nocountry.virtualclinic.domain.medico.Especialidad;
 import com.nocountry.virtualclinic.domain.medico.Medico;
 import com.nocountry.virtualclinic.domain.medico.MedicoRepository;
 import com.nocountry.virtualclinic.domain.user.AppUser;
@@ -26,12 +27,11 @@ public class CitaService {
     @Autowired
     private CitaRepository citaRepository;
 
-    public Cita crearCita(Long usuarioId, Long medicoId, LocalDateTime fechaHora) {
+    public Cita crearCita(Long usuarioId, Especialidad especialidad, LocalDateTime fechaHora) {
         AppUser usuario = usuarioRepository.findById(usuarioId)
                 .orElseThrow(() -> new RuntimeException("Usuario no encontrado"));
-        Medico medico = medicoRepository.findById(medicoId)
+        Medico medico = medicoRepository.findFirstByEspecialidad(especialidad)
                 .orElseThrow(() -> new RuntimeException("Medico no encontrado"));
-
         Cita cita = new Cita(usuario, medico, fechaHora);
         return citaRepository.save(cita);
     }

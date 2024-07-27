@@ -19,7 +19,7 @@ public class Medico {
     private String name;
 
     @Enumerated(EnumType.STRING)
-    private Especialidad specialty;
+    private Especialidad especialidad;
 
 
 }

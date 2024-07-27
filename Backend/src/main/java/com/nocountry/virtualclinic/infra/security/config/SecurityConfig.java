@@ -50,24 +50,5 @@ public class SecurityConfig{
     public UserDetailsService userDetailsService() {
         return customUserDetailsService;
     }
-//
-//    @Bean
-//    public PasswordEncoder passwordEncoder() {
-//        return new BCryptPasswordEncoder();
-//    }
-
 
 }
-
-
-//    @Bean
-//    public SecurityFilterChain securityFilterChain(HttpSecurity httpSecurity) throws Exception {
-//        return httpSecurity.csrf(csrf -> csrf.disable())
-//                .sessionManagement(sess -> sess.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
-//                .authorizeRequests()
-//                .requestMatchers(HttpMethod.POST, "/api/login").permitAll()
-//                .requestMatchers(HttpMethod.POST,"/api/registrar").permitAll()
-//                .anyRequest().authenticated()
-//                .and().addFilterBefore(securityFilter, UsernamePasswordAuthenticationFilter.class)
-//                .build();
-//    }

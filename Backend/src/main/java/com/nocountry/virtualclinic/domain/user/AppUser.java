@@ -28,11 +28,13 @@ public class AppUser implements UserDetails {
 
     private String clave;
 
-    public AppUser(String username, String password) {
-        this.login = username;
-        this.clave= password;
-    }
+    private String nombreUsuario;
 
+    public AppUser(String login, String clave, String nombreUsuario) {
+        this.login = login;
+        this.clave = clave;
+        this.nombreUsuario = nombreUsuario;
+    }
 
     //Métodos de UserDetails
     @Override
