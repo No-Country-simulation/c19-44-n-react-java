@@ -2,25 +2,24 @@ package com.nocountry.virtualclinic.domain.medico;
 import jakarta.persistence.*;
 import lombok.*;
 
-import java.time.LocalDate;
+@Entity
+@Table(name = "medicos")
 
-//@Entity
-//@Table(name = "medicos")
-//
-//@Getter
-//@Setter
-//@NoArgsConstructor
-//@AllArgsConstructor
-//@EqualsAndHashCode(of = "id")
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@EqualsAndHashCode()
 public class Medico {
-//    @Id
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
-//    private Long id;
-//    private String name;
-//    private LocalDate graduation;
-//    private Double score;
-//    @Enumerated(EnumType.STRING)
-//    private Specialties specialty;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "medico_id")
+    private Long medicoId;
+
+    private String name;
+
+    @Enumerated(EnumType.STRING)
+    private Especialidad especialidad;
 
 
 }
