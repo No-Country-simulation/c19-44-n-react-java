@@ -3,21 +3,32 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
-    <link rel="stylesheet" href="./global.css" />
-    <link rel="stylesheet" href="./login-form.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;800&display=swap" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap" />
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-UGVvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../global.css" />
+    <link rel="stylesheet" href="../css/login-form.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap"
+    />
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.js" integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </head>
   <body>
     <div class="loginform1">
-      <img class="hero-icon" alt="" src="./public/hero@2x.png" />
+      <img class="hero-icon" alt="" src="../public/hero@2x.png" />
+
       <div class="loginform-child"></div>
-      <a href="#" id="btn_back"><img class="weuiback-filled-icon4" loading="lazy" alt="" src="./public/back_white.svg"/></a>
+      <a href="#" id="btn_back"><img class="weuiback-filled-icon4" loading="lazy" alt="" src="../public/back_white.svg"/></a>
+
       <div class="loginform-inner">
         <div class="bienvenido-a-telemedicina-parent">
-          <h1 class="bienvenido-a-telemedicina1">¡Bienvenido a Telemedicina!</h1>
+          <h1 class="bienvenido-a-telemedicina1">
+            ¡Bienvenido a Telemedicina!
+          </h1>
           <div class="frame-parent8">
             <div class="frame-wrapper3">
               <div class="crea-una-cuenta-y-disfruta-de-parent">
@@ -37,22 +48,27 @@
               <div class="registrate-wrapper">
                 <h1 class="registrate1">Registrate</h1>
               </div>
+
               <div class="input-login">
-                <img src="./public/icons/Vector-4.svg" alt="Icono" class="input-icon">
+                <img src="../public/icons/Vector-4.svg" alt="Icono" class="input-icon">
                 <input class="inp_inicio" type="text" id="inp_nombre" placeholder="Nombre">
               </div>
+              
               <div class="input-login">
-                <img src="./public/icons/email-icon.svg" alt="Icono" class="input-icon">
+                <img src="../public/icons/email-icon.svg" alt="Icono" class="input-icon">
                 <input class="inp_inicio" type="text" id="inp_correo" placeholder="Correo">
               </div>
+
               <div class="input-login">
-                <img src="./public/icons/Vector-1.svg" alt="Icono" class="input-icon">
+                <img src="../public/icons/Vector-1.svg" alt="Icono" class="input-icon">
                 <input class="inp_inicio" type="password" id="inp_contraseña" placeholder="Contraseña">
               </div>
+
               <div class="input-login">
-                <img src="./public/icons/Vector-1.svg" alt="Icono" class="input-icon">
+                <img src="../public/icons/Vector-1.svg" alt="Icono" class="input-icon">
                 <input class="inp_inicio" type="password" id="inp_repeat_contraseña" placeholder="Repetir contraseña">
               </div>
+
               <div class="frame-parent9" style="width: 100%;">
                 <div class="terms-icon-parent">
                   <input class="terms-icon" type="checkbox" id="check_terminos" name="term_condicion"/>
@@ -68,6 +84,6 @@
         </div>
       </div>
     </div>
-    <script src="./signup.js"></script>
+    <script src="../scripts/login-form.js" type="module"></script>
   </body>
 </html>
