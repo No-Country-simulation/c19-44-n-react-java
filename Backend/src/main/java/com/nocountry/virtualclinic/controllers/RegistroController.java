@@ -27,7 +27,7 @@ public class RegistroController {
     @PostMapping("/signup")
     public ResponseEntity<DatosRespuestaUsuario> registrarUsuario (@Valid @RequestBody DatosRegistroUsuario datosRegistroUsuario){
         AppUser user = usuarioService.registroUsuario(datosRegistroUsuario);
-        return new ResponseEntity<>(new DatosRespuestaUsuario(user.getNombreUsuario(), user.getLogin()), HttpStatus.CREATED);
+        return new ResponseEntity<>(new DatosRespuestaUsuario(user.getUsuarioId(), user.getNombreUsuario(), user.getLogin()), HttpStatus.CREATED);
     }
 
 }

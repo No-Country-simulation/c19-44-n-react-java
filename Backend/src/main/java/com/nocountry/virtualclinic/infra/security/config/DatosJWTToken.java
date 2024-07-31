@@ -1,6 +1,7 @@
 package com.nocountry.virtualclinic.infra.security.config;
 
 public record DatosJWTToken(
-        String token
+        String token,
+        Long usuarioId
 ) {
 }

@@ -32,4 +32,10 @@ public class CustomUserDetailsService implements UserDetailsService {
         logger.info("Detalles del usuario cargados: {}", user.getUsername());
         return new org.springframework.security.core.userdetails.User(user.getUsername(), user.getPassword(), user.isEnabled(), true, true, true, new ArrayList<>());
     }
+
+    public Long getUsuarioId(String username) {
+        AppUser user = userRepository.findByLogin(username).orElseThrow(() -> new UsernameNotFoundException("User not found with username: " + username));
+        return user.getUsuarioId();
+    }
+
 }

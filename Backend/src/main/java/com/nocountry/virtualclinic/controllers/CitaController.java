@@ -17,13 +17,15 @@ import java.util.List;
 @RequestMapping("/api/citas")
 public class CitaController {
 
+    String success = "true";
+
     @Autowired
     private CitaService citaService;
 
     @PostMapping
     public ResponseEntity<DatosRespuestaCita> crearCita(@RequestBody DatosCrearCita dto) {
         Cita cita = citaService.crearCita(dto.usuarioId(), dto.especialidad(), dto.fechaHora());
-        var datosRespuestaCita = new DatosRespuestaCita(cita.getCitaId(), cita.getFechaHora(), cita.getMedico());
+        var datosRespuestaCita = new DatosRespuestaCita(success, cita.getCitaId(), cita.getFechaHora(), cita.getMedico());
         return ResponseEntity.ok(datosRespuestaCita);
     }
 
@@ -36,14 +38,14 @@ public class CitaController {
     @PutMapping("/{id}")
     public ResponseEntity<DatosRespuestaCita> modificarCita(@PathVariable Long id, @RequestBody DatosModificarCita dto) {
         Cita cita = citaService.modificarCita(id, dto.nuevaFechaHora());
-        var datosRespuestaCita = new DatosRespuestaCita(cita.getCitaId(), cita.getFechaHora(), cita.getMedico());
+        var datosRespuestaCita = new DatosRespuestaCita(success, cita.getCitaId(), cita.getFechaHora(), cita.getMedico());
         return ResponseEntity.ok(datosRespuestaCita);
     }
 
     @GetMapping("/upcoming/{usuarioId}")
     public ResponseEntity<List<DatosRespuestaCita>> obtenerCitasPendientes(@PathVariable Long usuarioId) {
         List<Cita> citas = citaService.obtenerCitasPendientes(usuarioId);
-        List<DatosRespuestaCita> citasPendiente = citas.stream().map(c -> new DatosRespuestaCita(c.getCitaId(), c.getFechaHora(), c.getMedico())).toList();
+        List<DatosRespuestaCita> citasPendiente = citas.stream().map(c -> new DatosRespuestaCita(success, c.getCitaId(), c.getFechaHora(), c.getMedico())).toList();
         return ResponseEntity.ok(citasPendiente);
     }
 }

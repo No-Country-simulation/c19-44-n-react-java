@@ -188,13 +188,11 @@
                   <option value="Pediatría">Pediatría</option>
                 </select>
               </div>
-              <div class="tus-datos1">Tus datos</div>
+              <!-- <div class="tus-datos1">Tus datos</div> -->
             </div>
-            <div class="dni-parent">
+<!--             <div class="dni-parent">
               <div class="dni1">DNI</div>
-              <input class="xxxxxxxx1 input" id="inp_dni" placeholder=".:: Ingresa el DNI ::." type="text" style="width: 100%;" />
-              
-            </div>
+            </div> -->
             <div class="frame-parent11">
               <div class="reserva-parent">
                 <div class="reserva1">Reserva</div>
@@ -414,7 +412,7 @@
       </div>
     </div>
 
-    <div class="modal fade" id="miModal" tabindex="-1" aria-labelledby="miModalLabel" aria-hidden="true">
+    <!-- <div class="modal fade" id="miModal" tabindex="-1" aria-labelledby="miModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content" style="width: 160%; left: -35%;">
           <div class="modal-header" style="background: #6c4cab; color: #fff;">
@@ -471,8 +469,8 @@
           </div>
         </div>
       </div>
-    </div>
-
+    </div> -->
+    <script src="./gestion-de-turnos.js"></script>
   </body>
   <script>
     $(document).ready(function() {
@@ -492,19 +490,13 @@
     })
 
     $("#btn_agendar").on("click", function(){
-      if($("#inp_dni").val() == ""){
-          swal.fire("Datos incompletos", "El campo <b>DNI</b> no puede estar vacio", "info");
-          $("#inp_dni").focus();
-      }else if($("#fecha_hora").val() == ""){
+      if($("#fecha_hora").val() == ""){
           swal.fire("Datos incompletos", "Debe seleccion una fecha para su cita", "info");
           $("#fecha_hora").focus();
       }else{
           //window.location.href = "realizar-pago.html";
           $("#turno").append($("#slc_turnos").val());
-          $("#dni").append($("#inp_dni").val());
           $("#fecha").append($("#fecha_hora").val());
-
-          $('#miModal').modal('show');
       }
     })
 
@@ -512,11 +504,11 @@
       window.location.href = "perfil-usuario.html";
     });
 
-    $("#buttonClose").on("click", function(){
+/*     $("#buttonClose").on("click", function(){
       $('#miModal').modal('hide');
-    });
+    }); */
 
-    $("#buttonprimary").on("click", function(){
+/*     $("#buttonprimary").on("click", function(){
       if($("#cod_mtp").val() == ""){
           swal.fire("Datos incompletos", "El campo <b>Codigo de seguridad</b> no puede estar vacio", "info");
           $("#cod_mtp").focus();
@@ -556,6 +548,6 @@
 
     $("#cerrarModal").on("click", function(){
       $('#miModal').modal('hide');
-    });
+    }); */
   </script>
 </html>

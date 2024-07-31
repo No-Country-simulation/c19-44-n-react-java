@@ -11,11 +11,8 @@ public record DatosCrearCita(
         Long usuarioId,
         @NotNull
         Especialidad especialidad,
-        @NotBlank
-        @Size(min = 6, max = 10)
-        String dni,
         @NotNull
-        @JsonFormat(pattern = "dd-MM-yyyy HH:mm")
+        @JsonFormat(pattern = "dd/MM/yyyy HH:mm")
         LocalDateTime fechaHora
 ) {
 }

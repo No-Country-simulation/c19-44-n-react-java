@@ -17,7 +17,9 @@ document.getElementById('loginForm').addEventListener('submit', async function(e
         if (response.ok) {
             const data = await response.json();
             localStorage.setItem('token', data.token); // Guardar el token en el almacenamiento local
+            localStorage.setItem('usuarioId', data.usuarioId);
             console.log('Token guardado en localStorage:', data.token);
+            console.log('id guardado en localStorage:', data.usuarioId);
             window.location.href = 'perfil-usuario.html'; // Redirigir al perfil de usuario
         } else {
             alert('Inicio de sesión fallido');

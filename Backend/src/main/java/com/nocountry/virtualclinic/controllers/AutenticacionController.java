@@ -5,6 +5,7 @@ import com.nocountry.virtualclinic.domain.user.AppUser;
 import com.nocountry.virtualclinic.domain.user.DatosAutenticacionUsuario;
 import com.nocountry.virtualclinic.infra.security.config.DatosJWTToken;
 import com.nocountry.virtualclinic.infra.security.config.TokenService;
+import com.nocountry.virtualclinic.service.CustomUserDetailsService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -25,19 +26,22 @@ public class AutenticacionController {
     private UserDetailsService userDetailsService;
     @Autowired
     private TokenService tokenService;
+    @Autowired
+    private CustomUserDetailsService customUserDetailsService;
 
     @PostMapping
     public ResponseEntity<DatosJWTToken> autenticarUsuario(@RequestBody @Valid DatosAutenticacionUsuario datosAutenticacionUsuario) {
         try {
             userDetailsService.loadUserByUsername(datosAutenticacionUsuario.login());
-            String jwtToken = tokenService.generarToken(datosAutenticacionUsuario.login());
+            Long id = customUserDetailsService.getUsuarioId(datosAutenticacionUsuario.login());
+            String jwtToken = tokenService.generarToken(datosAutenticacionUsuario.login(), id);
 
-            return ResponseEntity.ok(new DatosJWTToken(jwtToken));
+            return ResponseEntity.ok(new DatosJWTToken(jwtToken, id));
 
         } catch (AuthenticationException e) {
-            return ResponseEntity.status(401).body(new DatosJWTToken("Autenticación fallida: " + e.getMessage()));
+            return ResponseEntity.status(401).body(new DatosJWTToken("Autenticación fallida: " + e.getMessage(), null));
         } catch (Exception e) {
-            return ResponseEntity.status(500).body(new DatosJWTToken("Error interno del servidor: " + e.getMessage()));
+            return ResponseEntity.status(500).body(new DatosJWTToken("Error interno del servidor: " + e.getMessage(), null));
         }
     }
 

@@ -22,7 +22,7 @@ public class Cita {
     @Column(name = "cita_id")
     private Long citaId;
 
-    @JsonFormat(pattern = "dd-MM-yyyy HH:mm")
+    @JsonFormat(pattern = "dd/MM/yyyy HH:mm")
     private LocalDateTime fechaHora;
 
     @ManyToOne
