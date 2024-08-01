@@ -33,10 +33,35 @@ public class Cita {
     @JoinColumn(name = "medico_id")
     private Medico medico;
 
+    private boolean pendiente;
+
     public Cita(AppUser usuario, Medico medico, LocalDateTime fechaHora) {
         this.usuario = usuario;
         this.medico = medico;
         this.fechaHora = fechaHora;
+        this.pendiente = pendiente;
     }
+
+    public void actualizarEstado() {
+        this.pendiente = this.fechaHora.isAfter(LocalDateTime.now());
+    }
+    public void setFechaHora(LocalDateTime fechaHora) {
+        this.fechaHora = fechaHora;
+        actualizarEstado();
+    }
+
+    public boolean isPendiente() {
+        return pendiente;
+    }
+
+    public void setPendiente(boolean pendiente) {
+        this.pendiente = pendiente;
+    }
+
+    public boolean isCaducada() {
+        return !pendiente;
+    }
+
+
 
 }

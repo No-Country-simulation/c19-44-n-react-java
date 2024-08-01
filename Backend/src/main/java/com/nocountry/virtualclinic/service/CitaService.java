@@ -59,4 +59,17 @@ public class CitaService {
 
         return citaRepository.findByUsuarioAndFechaHoraAfter(usuario, LocalDateTime.now());
     }
+    public List<Cita> obtenerCitasPendientes() {
+        return citaRepository.findByPendienteTrue();
+    }
+
+    public List<Cita> obtenerCitasCaducadas() {
+        return citaRepository.findByPendienteFalse();
+    }
+
+    @Transactional
+    public Cita crearOActualizarCita(Cita cita) {
+        cita.actualizarEstado();
+        return citaRepository.save(cita);
+    }
 }

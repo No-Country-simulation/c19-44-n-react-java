@@ -1,9 +1,6 @@
 package com.nocountry.virtualclinic.controllers;
 
-import com.nocountry.virtualclinic.domain.cita.Cita;
-import com.nocountry.virtualclinic.domain.cita.DatosCrearCita;
-import com.nocountry.virtualclinic.domain.cita.DatosModificarCita;
-import com.nocountry.virtualclinic.domain.cita.DatosRespuestaCita;
+import com.nocountry.virtualclinic.domain.cita.*;
 import com.nocountry.virtualclinic.service.CitaService;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,6 +8,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 @RestController
@@ -48,4 +46,18 @@ public class CitaController {
         List<DatosRespuestaCita> citasPendiente = citas.stream().map(c -> new DatosRespuestaCita(success, c.getCitaId(), c.getFechaHora(), c.getMedico())).toList();
         return ResponseEntity.ok(citasPendiente);
     }
+
+
+    @GetMapping("/pendientes")
+    public ResponseEntity<List<Cita>> obtenerCitasPendientes() {
+        List<Cita> citasPendientes = citaService.obtenerCitasPendientes();
+        return ResponseEntity.ok(citasPendientes);
+    }
+
+    @GetMapping("/caducadas")
+    public ResponseEntity<List<Cita>> obtenerCitasCaducadas() {
+        List<Cita> citasCaducadas = citaService.obtenerCitasCaducadas();
+        return ResponseEntity.ok(citasCaducadas);
+    }
+
 }
