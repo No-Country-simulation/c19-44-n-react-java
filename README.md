@@ -72,7 +72,8 @@ sobre el archivo index.html y seleccionando la opcion 'Open with Live Server' se
 
 ## Autores
 
-| [<img src="https://avatars.githubusercontent.com/u/174158607?v=4" width=115><br><sub>Daily Fuenmayor</sub>](https://github.com/dailyFuenmayor)|
+| [<img src="https://avatars.githubusercontent.com/u/174158607?v=4" width=115><br><sub>Daily Fuenmayor, UX/UI Designer</sub>](https://github.com/dailyFuenmayor)|
 | :---: |
-| [<img src="https://avatars.githubusercontent.com/u/157176273?v=4" width=115><br><sub>Maria Campos</sub>](https://github.com/MariaCampos97)|
-| [<img src="https://avatars.githubusercontent.com/u/150280699?v=4" width=115><br><sub>Heriberto Amaya</sub>](https://github.com/Gildartz08)|
+| [<img src="https://avatars.githubusercontent.com/u/157176273?v=4" width=115><br><sub>Maria Campos, Backend Developer</sub>](https://github.com/MariaCampos97)|
+| [<img src="https://avatars.githubusercontent.com/u/150280699?v=4" width=115><br><sub>Heriberto Amaya, Backend Developer</sub>](https://github.com/Gildartz08)|
+| [<img src="" width=115><br><sub>Julieta Mores, Team Leader</sub>]()|
