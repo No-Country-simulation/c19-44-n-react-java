@@ -193,7 +193,7 @@
   justify-content: center;
   padding: 387px var(--padding-xl);
   gap: var(--gap-xl);
-  background-image: url(./public/hero2@3x.png);
+  background-image: url(../public/hero2@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
