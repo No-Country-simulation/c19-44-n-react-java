@@ -12,7 +12,7 @@ public record DatosCrearCita(
         @NotNull
         Especialidad especialidad,
         @NotNull
-        @JsonFormat(pattern = "dd/MM/yyyy HH:mm")
+        @JsonFormat(pattern = "yyyy-MM-dd HH:mm")
         LocalDateTime fechaHora
 ) {
 }
