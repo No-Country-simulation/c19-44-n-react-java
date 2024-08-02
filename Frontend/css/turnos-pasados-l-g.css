@@ -1,0 +1,1155 @@
+.sidebar-icon {
+  height: 110px;
+  width: 110px;
+  position: relative;
+  object-fit: cover;
+}
+.sidebar-icon-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-34xl);
+}
+.maria-perez5 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.maria-perez5,
+.plan-premium4 {
+  position: relative;
+}
+.frame-parent41,
+.plan1,
+.user-profile2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.plan1 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-22xl);
+  font-size: var(--desk-txt-size);
+}
+.frame-parent41,
+.user-profile2 {
+  flex-direction: column;
+}
+.user-profile2 {
+  align-self: stretch;
+  gap: var(--gap-10xs);
+}
+.frame-parent41 {
+  flex: 1;
+  gap: var(--gap-3xl);
+}
+.frame-wrapper6 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-55xl);
+}
+.frame-wrapper6,
+.navigation-items1,
+.navigation-row1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navigation-items1 {
+  width: calc(100% - 30px);
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 26.5px;
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-9xs-5) 0 0;
+  box-sizing: border-box;
+  font-family: var(--desk-h3);
+  font-size: var(--desk-txt-size);
+  color: var(--color-white);
+  min-width: 44px;
+}
+.navigation-row1 {
+  width: 115px;
+  flex-direction: row;
+  gap: var(--gap-2xs);
+}
+.navigation-background {
+  align-self: stretch;
+  height: 2px;
+  position: relative;
+  background-color: var(--color-white);
+}
+.navigation-row {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.vector-icon25 {
+  align-self: stretch;
+  width: 30px;
+  position: relative;
+  max-height: 100%;
+  min-height: 23px;
+}
+.frame-child19,
+.vector-parent16 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-child19 {
+  width: calc(100% - 30px);
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 23px;
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-9xs-5) 0 0;
+  box-sizing: border-box;
+  font-family: var(--desk-h3);
+  font-size: var(--desk-txt-size);
+  color: var(--color-white);
+  min-width: 104px;
+}
+.vector-parent16 {
+  width: 213px;
+  flex-direction: row;
+  gap: var(--gap-2xs);
+}
+.vector-icon26 {
+  height: 28px;
+  width: 22px;
+  position: relative;
+}
+.frame-child20 {
+  width: calc(100% - 22px);
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 23px;
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-9xs-5) 0 0;
+  box-sizing: border-box;
+  font-family: var(--desk-h3);
+  font-size: var(--desk-txt-size);
+  color: var(--color-white);
+  min-width: 104px;
+}
+.contensidebar4,
+.frame-child20,
+.frame-parent40,
+.vector-parent17 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vector-parent17 {
+  width: 205px;
+  flex-direction: row;
+  gap: var(--gap-2xs);
+}
+.contensidebar4,
+.frame-parent40 {
+  align-self: stretch;
+  flex-direction: column;
+}
+.contensidebar4 {
+  padding: 0 var(--padding-5xs) var(--padding-xl);
+  gap: var(--gap-41xl);
+}
+.frame-parent40 {
+  gap: var(--gap-66xl);
+}
+.contactanos4 {
+  width: 259px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.contact-image-icon {
+  width: 22px;
+  height: 22px;
+  position: relative;
+}
+.contact-icon4,
+.contact-title {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contact-icon4 {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+  margin-left: -240px;
+}
+.contact-title {
+  align-self: stretch;
+  flex-direction: row;
+  text-align: center;
+  font-size: var(--desk-txt-size);
+}
+.direccin4 {
+  margin: 0;
+}
+.direccin-123-calle-container4 {
+  width: 208px;
+  position: relative;
+  display: inline-block;
+}
+.contact-details2,
+.contact2,
+.main,
+.sidebar4 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contact-details2 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-xs-3);
+}
+.contact2,
+.main,
+.sidebar4 {
+  max-width: 100%;
+}
+.contact2 {
+  width: 353.5px;
+  flex-direction: row;
+  padding: 0 var(--padding-28xl);
+  box-sizing: border-box;
+  font-size: var(--desk-small-size);
+}
+.main,
+.sidebar4 {
+  flex-direction: column;
+}
+.sidebar4 {
+  width: 457px;
+  border-radius: 0 var(--br-41xl) var(--br-41xl) 0;
+  background-color: var(--color-slateblue);
+  padding: var(--padding-29xl) var(--padding-26xl) var(--padding-74xl);
+  box-sizing: border-box;
+  gap: var(--gap-81xl);
+}
+.main {
+  margin-left: -630px;
+  width: 557px;
+  flex-shrink: 0;
+  color: var(--color-white);
+}
+.past-appointments-icon {
+  height: 70px;
+  width: 70px;
+  position: relative;
+}
+.turnos-pasados1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.past-appointments-label {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs-5) 0 0;
+  box-sizing: border-box;
+  min-width: 248px;
+  max-width: 100%;
+}
+.past-appointments-header,
+.past-appointments-title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.past-appointments-header {
+  width: 471px;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.past-appointments-title {
+  width: 637px;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-6xs);
+  box-sizing: border-box;
+}
+.nuevo-turno1,
+.turnos-pendientes2 {
+  width: 124px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.turnos-pendientes2 {
+  width: 195px;
+}
+.appointment-options {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-25xl);
+  white-space: nowrap;
+  text-align: left;
+  font-size: var(--desk-txt-size);
+  color: var(--color-black);
+  font-family: var(--desk-h3);
+}
+.highlight-shape {
+  height: 3px;
+  width: 175px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-darkslateblue-100);
+}
+.barra-de-seleccion3,
+.selection-bar1 {
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.barra-de-seleccion3 {
+  flex: 1;
+  border-radius: 0 var(--br-8xs) var(--br-8xs) 0;
+  background-color: var(--color-gainsboro-200);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0;
+  max-width: 100%;
+}
+.selection-bar1 {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+}
+.appointment-selection,
+.appointment-types,
+.selection-bar1 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.appointment-selection {
+  width: 560px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.appointment-types {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+  box-sizing: border-box;
+}
+.appointment-icons {
+  height: 30px;
+  width: 30px;
+  position: relative;
+}
+.abr-2024 {
+  position: relative;
+  display: inline-block;
+  min-width: 98px;
+}
+.appointment-row2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--desk-small1-size);
+}
+.hora3,
+.time-separator {
+  position: relative;
+  display: inline-block;
+  min-width: 44px;
+}
+.time-separator {
+  min-width: 40px;
+  white-space: nowrap;
+}
+.appointment-separator {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 0 0;
+  font-size: var(--desk-small-size);
+}
+.appointment-times {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-10xs);
+}
+.mdico10 {
+  align-self: stretch;
+  position: relative;
+}
+.appointment-doctor-name {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--desk-small-size);
+}
+.appointment-doctor {
+  width: 145px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-10xs);
+  text-align: center;
+}
+.completado {
+  position: relative;
+  display: inline-block;
+  min-width: 88px;
+}
+.appointment-status,
+.appointment-status-value {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.appointment-status-value {
+  flex-direction: row;
+  padding: 0 var(--padding-xl);
+  text-align: left;
+  font-size: var(--desk-small-size);
+  color: #8ebd8d;
+}
+.appointment-status {
+  width: 129px;
+  flex-direction: column;
+  gap: var(--gap-12xs);
+  text-align: center;
+}
+.appointment-row,
+.appointment-row1 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+}
+.appointment-row1 {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 18px 0 0;
+}
+.appointment-row {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-ghostwhite-100);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-11xl);
+}
+.mar-2024 {
+  position: relative;
+  display: inline-block;
+  min-width: 102px;
+}
+.dr-rocio-bedoya {
+  flex: 1;
+  position: relative;
+}
+.completado-wrapper,
+.frame-wrapper7 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-wrapper7 {
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  text-align: left;
+  font-size: var(--desk-small-size);
+  color: #9bc39a;
+}
+.frame-parent42 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-sm) 0 0;
+  gap: var(--gap-xl);
+}
+.consulta-ginecologca {
+  align-self: stretch;
+  position: relative;
+  color: var(--color-darkslateblue-100);
+}
+.feb-2024 {
+  position: relative;
+  display: inline-block;
+  min-width: 100px;
+}
+.frame-wrapper8 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  text-align: left;
+  font-size: var(--desk-small-size);
+  color: #a0c6a0;
+}
+.frame-parent43 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-base) 0 0;
+  gap: var(--gap-xl);
+}
+.appointment-list1,
+.past-appointments,
+.past-appointments-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.appointment-list1 {
+  align-self: stretch;
+  gap: var(--gap-20xl);
+  font-size: var(--desk-txt-size);
+  color: var(--color-black);
+}
+.past-appointments,
+.past-appointments-content {
+  max-width: 100%;
+}
+.past-appointments-content {
+  align-self: stretch;
+  gap: var(--gap-41xl);
+}
+.past-appointments {
+  width: 724px;
+  padding: var(--padding-21xl) 0 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.upcoming-appointment-icons4 {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  min-height: 30px;
+}
+.upcoming-appointment-header {
+  width: 190px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.proximo-turno4 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--desk-h3-size);
+  font-weight: 500;
+  font-family: inherit;
+}
+.calendar-icon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  min-height: 20px;
+}
+.mayo4 {
+  position: relative;
+  display: inline-block;
+  min-width: 40px;
+}
+.calendar-container2,
+.calendar-header2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.calendar-header2 {
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+}
+.calendar-container2 {
+  width: 166px;
+  justify-content: flex-end;
+}
+.dom4,
+.jue4,
+.lun4,
+.mar4,
+.sb4,
+.vie4 {
+  position: relative;
+  display: inline-block;
+  min-width: 31px;
+}
+.dom4,
+.jue4,
+.mar4,
+.sb4,
+.vie4 {
+  min-width: 29px;
+}
+.dom4,
+.jue4,
+.sb4,
+.vie4 {
+  min-width: 27px;
+}
+.dom4,
+.sb4,
+.vie4 {
+  min-width: 23px;
+}
+.dom4,
+.sb4 {
+  min-width: 32px;
+}
+.dom4 {
+  min-width: 38px;
+}
+.weekdays1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.date-cells,
+.date-cells4 {
+  position: relative;
+  display: inline-block;
+  min-width: 9px;
+}
+.date-cells4 {
+  text-decoration: none;
+  color: inherit;
+}
+.calendar-dates6 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.calendar-grid5,
+.calendar-weekdays {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.calendar-grid5 {
+  flex-direction: row;
+  padding: 0 var(--padding-sm);
+  color: var(--color-black);
+}
+.calendar-weekdays {
+  flex-direction: column;
+  gap: var(--gap-4xs);
+}
+.date-cells7 {
+  color: var(--color-gray);
+}
+.date-cells7,
+.date-cells8,
+.date-cells9 {
+  position: relative;
+  display: inline-block;
+  min-width: 9px;
+}
+.date-cells9 {
+  min-width: 18px;
+}
+.calendar-dates7 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.calendar-row,
+.date-cells14 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.calendar-row {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-4xs);
+  color: var(--color-black);
+}
+.date-cells14 {
+  width: 18.5px;
+  flex-direction: column;
+  gap: var(--gap-mini);
+}
+.date-cells15 {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 18px;
+}
+.calendar-dates9 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.event-label,
+.event-marker {
+  position: relative;
+  flex-shrink: 0;
+}
+.event-label {
+  display: inline-block;
+  min-width: 18px;
+}
+.event-marker {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: var(--color-darkslateblue-100);
+  z-index: 1;
+}
+.event-icon {
+  width: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) 0 var(--padding-5xs);
+  box-sizing: border-box;
+  margin-top: -2px;
+}
+.calendar-event {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  color: var(--color-darkslateblue-100);
+}
+.date-cells26 {
+  position: relative;
+  color: var(--color-black);
+  display: inline-block;
+  min-width: 18px;
+}
+.calendar-dates8,
+.calendar-row2,
+.calendar-row4 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.calendar-row4 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-8xs);
+  color: var(--color-dimgray-100);
+}
+.calendar-dates8,
+.calendar-row2 {
+  flex: 1;
+}
+.calendar-row2 {
+  flex-direction: column;
+  gap: var(--gap-mini);
+  color: var(--color-black);
+}
+.calendar-dates8 {
+  flex-direction: row;
+  gap: var(--gap-2xl-5);
+}
+.calendar-days13,
+.calendar-row1,
+.calendario4 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.calendar-row1 {
+  flex-direction: row;
+  padding: 0 var(--padding-7xs);
+  color: var(--color-gray);
+}
+.calendar-days13,
+.calendario4 {
+  flex-direction: column;
+  gap: var(--gap-mini);
+  color: var(--color-darkslateblue-200);
+}
+.calendario4 {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-11xl);
+  background-color: var(--color-lavender);
+  padding: var(--padding-smi) var(--padding-3xs);
+  gap: var(--gap-4xs);
+  color: var(--color-black);
+}
+.view {
+  position: relative;
+  display: inline-block;
+  min-width: 86px;
+}
+.actions {
+  box-shadow: var(--m3-elevation-light-1);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslateblue-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs-5) var(--padding-smi);
+}
+.ver4 {
+  position: relative;
+  font-size: var(--desk-small-size);
+  font-family: var(--desk-h3);
+  color: var(--color-gainsboro-100);
+  text-align: center;
+  display: inline-block;
+  min-width: 24px;
+}
+.actions1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs-5) var(--padding-25xl);
+  background-color: var(--color-darkslateblue-100);
+  box-shadow: var(--m3-elevation-light-2);
+  border-radius: var(--br-3xs);
+  justify-content: flex-start;
+}
+.actions1:hover {
+  background-color: var(--color-mediumpurple);
+}
+.actions1,
+.view-more-button,
+.view-more2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.view-more-button {
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.view-more2 {
+  justify-content: flex-end;
+  padding: 0 var(--padding-3xl);
+  text-align: left;
+  color: var(--color-white);
+}
+.upcoming-appointment-info {
+  width: 291px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-2xs-8);
+}
+.upcoming-appointment-details1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-26xl) var(--padding-4xs-5);
+}
+.iniciar-viedeollama4 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.doctor-icon3 {
+  width: 118px;
+  height: 119px;
+  position: relative;
+  object-fit: cover;
+}
+.status-icon3 {
+  width: 50px;
+  height: 40px;
+  position: relative;
+}
+.video-call-info3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.video-call-doctor1,
+.videollamada4 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+}
+.video-call-doctor1 {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-11xl);
+  background-color: var(--color-lavender);
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) var(--padding-4xs) var(--padding-11xl)
+    var(--padding-5xs);
+}
+.videollamada4 {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) 0;
+}
+.video-call-content2 {
+  width: 355.7px;
+  height: 397px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-20xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  color: var(--color-darkslateblue-200);
+}
+.video-call-action {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xs-1);
+  max-width: 100%;
+}
+.video-call-button2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--desk-h3-size);
+}
+.upcoming-appointment-content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-36xl-5);
+  max-width: 100%;
+}
+.turnos-pasadoslg,
+.upcoming-appointment1 {
+  max-width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.upcoming-appointment1 {
+  width: 397px;
+  flex-direction: column;
+  padding: var(--padding-5xl) 0 0;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--desk-small-size);
+}
+.turnos-pasadoslg {
+  width: 1920px;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 var(--padding-78xl) 0 var(--padding-610xl);
+  gap: var(--gap-54xl);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--desk-h2-size);
+  color: var(--color-darkslategray);
+  font-family: var(--desk-h3);
+}
+@media screen and (max-width: 1825px) {
+  .turnos-pasadoslg {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .turnos-pasadoslg {
+    padding-left: var(--padding-295xl);
+    padding-right: var(--padding-29xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .maria-perez5 {
+    font-size: var(--font-size-13xl);
+  }
+  .sidebar4 {
+    padding-top: var(--padding-12xl);
+    padding-bottom: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+  .turnos-pasados1 {
+    font-size: var(--font-size-13xl);
+  }
+  .past-appointments-header {
+    flex-wrap: wrap;
+  }
+  .appointment-options {
+    flex-wrap: wrap;
+    gap: var(--gap-3xl);
+  }
+  .appointment-row1,
+  .frame-parent42,
+  .frame-parent43 {
+    flex-wrap: wrap;
+  }
+  .appointment-list1 {
+    gap: var(--gap-lgi);
+  }
+  .past-appointments-content {
+    gap: var(--gap-11xl);
+  }
+  .iniciar-viedeollama4,
+  .proximo-turno4 {
+    font-size: var(--font-size-5xl);
+  }
+  .turnos-pasadoslg {
+    gap: var(--gap-17xl);
+    padding-left: var(--padding-138xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .maria-perez5 {
+    font-size: var(--font-size-5xl);
+  }
+  .plan-premium4 {
+    font-size: var(--desk-small-size);
+  }
+  .frame-wrapper6 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .contensidebar4 {
+    gap: var(--gap-11xl);
+  }
+  .frame-parent40 {
+    gap: var(--gap-23xl);
+  }
+  .contactanos4 {
+    font-size: var(--desk-small-size);
+  }
+  .contact2,
+  .sidebar4 {
+    box-sizing: border-box;
+  }
+  .contact2 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+  }
+  .sidebar4 {
+    gap: var(--gap-31xl);
+    padding: var(--padding-xl) var(--padding-3xl) var(--padding-20xl);
+  }
+  .turnos-pasados1 {
+    font-size: var(--font-size-5xl);
+  }
+  .consulta-ginecologca,
+  .hora3,
+  .mdico10,
+  .nuevo-turno1,
+  .turnos-pendientes2 {
+    font-size: var(--desk-small-size);
+  }
+  .proximo-turno4 {
+    font-size: var(--desk-small1-size);
+  }
+  .weekdays1 {
+    flex-wrap: wrap;
+  }
+  .date-cells,
+  .date-cells4 {
+    width: 100%;
+    height: 9px;
+  }
+  .calendar-dates6 {
+    flex-wrap: wrap;
+  }
+  .upcoming-appointment-details1 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .iniciar-viedeollama4 {
+    font-size: var(--desk-small1-size);
+  }
+  .video-call-info3 {
+    gap: var(--gap-base);
+  }
+  .video-call-doctor1 {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .upcoming-appointment-content {
+    gap: var(--gap-9xl);
+  }
+  .turnos-pasadoslg {
+    gap: var(--gap-lg);
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
