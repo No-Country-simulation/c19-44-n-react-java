@@ -8,4 +8,9 @@ import java.util.List;
 
 public interface CitaRepository extends JpaRepository<Cita, Long> {
     List<Cita> findByUsuarioAndFechaHoraAfter(AppUser usuario, LocalDateTime fechaHora);
+
+    List<Cita> findByPendienteTrue();
+
+    List<Cita> findByPendienteFalse();
+
 }

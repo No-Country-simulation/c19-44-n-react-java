@@ -17,10 +17,11 @@ public class TokenService {
     @Value("${jwt.expiration}")
     private long expiration;
 
-    public String generarToken(String username) {
+    public String generarToken(String username, Long usuarioId) {
         try {
             return Jwts.builder()
                     .setSubject(username)
+                    .claim("usuarioId", usuarioId)
                     .setIssuedAt(new Date())
                     .setExpiration(new Date(System.currentTimeMillis() + expiration))
                     .signWith(SignatureAlgorithm.HS256, secretKey)
@@ -29,6 +30,11 @@ public class TokenService {
             throw new TokenCreationException("Error creando el token JWT", exception);
         }
     }
+
+//    public Long extraerUserId(String token) {
+//        Claims claims = extractClaims(token);
+//        return claims.get("usuarioId", Long.class);
+//    }
 
     public Claims extractClaims(String token) {
         return Jwts.parser()

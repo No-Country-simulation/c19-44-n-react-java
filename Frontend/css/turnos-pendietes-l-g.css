@@ -1,0 +1,1177 @@
+.side-bar-icon {
+  height: 110px;
+  width: 110px;
+  position: relative;
+  object-fit: cover;
+}
+.side-bar-elements2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-34xl);
+}
+.maria-perez1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.user-plan {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-22xl);
+  font-size: var(--desk-txt-size);
+}
+.user-profile {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-10xs);
+}
+.side-bar-elements,
+.side-bar-elements1,
+.user-profile {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.side-bar-elements1 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-3xl);
+}
+.side-bar-elements {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-55xl);
+}
+.vector-icon6 {
+  height: 30px;
+  width: 30px;
+  position: relative;
+}
+.side-bar-icons-row1,
+.side-bar-labels {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.side-bar-labels {
+  width: calc(100% - 30px);
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 26.5px;
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-9xs-5) 0 0;
+  box-sizing: border-box;
+  font-family: var(--desk-h3);
+  font-size: var(--desk-txt-size);
+  color: var(--color-white);
+  min-width: 44px;
+}
+.side-bar-icons-row1 {
+  width: 115px;
+  flex-direction: row;
+  gap: var(--gap-2xs);
+}
+.side-bar-background {
+  align-self: stretch;
+  height: 2px;
+  position: relative;
+  background-color: var(--color-white);
+}
+.side-bar-icons-row {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.vector-icon7 {
+  align-self: stretch;
+  width: 30px;
+  position: relative;
+  max-height: 100%;
+  min-height: 23px;
+}
+.frame-child3,
+.vector-parent2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-child3 {
+  width: calc(100% - 30px);
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 23px;
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-9xs-5) 0 0;
+  box-sizing: border-box;
+  font-family: var(--desk-h3);
+  font-size: var(--desk-txt-size);
+  color: var(--color-white);
+  min-width: 104px;
+}
+.vector-parent2 {
+  width: 213px;
+  flex-direction: row;
+  gap: var(--gap-2xs);
+}
+.vector-icon8 {
+  height: 28px;
+  width: 22px;
+  position: relative;
+}
+.frame-child4 {
+  width: calc(100% - 22px);
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 23px;
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-9xs-5) 0 0;
+  box-sizing: border-box;
+  font-family: var(--desk-h3);
+  font-size: var(--desk-txt-size);
+  color: var(--color-white);
+  min-width: 104px;
+}
+.contensidebar1,
+.frame-child4,
+.side-bar-container,
+.vector-parent3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vector-parent3 {
+  width: 205px;
+  flex-direction: row;
+  gap: var(--gap-2xs);
+}
+.contensidebar1,
+.side-bar-container {
+  align-self: stretch;
+  flex-direction: column;
+}
+.contensidebar1 {
+  padding: 0 var(--padding-5xs) var(--padding-xl);
+  gap: var(--gap-41xl);
+}
+.side-bar-container {
+  gap: var(--gap-66xl);
+}
+.contactanos1 {
+  width: 259px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.contact-icon1 {
+  width: 22px;
+  height: 22px;
+  position: relative;
+}
+.contact,
+.contact-icon {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contact-icon {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+  margin-left: -240px;
+}
+.contact {
+  align-self: stretch;
+  flex-direction: row;
+  text-align: center;
+  font-size: var(--desk-txt-size);
+}
+.direccin1 {
+  margin: 0;
+}
+.direccin-123-calle-container1 {
+  width: 208px;
+  position: relative;
+  display: inline-block;
+}
+.company-details,
+.company-info,
+.sidebar1,
+.top-navigation {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.company-details {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-xs-3);
+}
+.company-info,
+.sidebar1,
+.top-navigation {
+  max-width: 100%;
+}
+.company-info {
+  width: 353.5px;
+  flex-direction: row;
+  padding: 0 var(--padding-28xl);
+  box-sizing: border-box;
+  font-size: var(--desk-small-size);
+}
+.sidebar1,
+.top-navigation {
+  flex-direction: column;
+}
+.sidebar1 {
+  width: 457px;
+  border-radius: 0 var(--br-41xl) var(--br-41xl) 0;
+  background-color: var(--color-slateblue);
+  padding: var(--padding-29xl) var(--padding-26xl) var(--padding-74xl);
+  box-sizing: border-box;
+  gap: var(--gap-81xl);
+}
+.top-navigation {
+  margin-left: -630px;
+  width: 557px;
+  flex-shrink: 0;
+  color: var(--color-white);
+}
+.appointment-icon {
+  height: 70px;
+  width: 70px;
+  position: relative;
+}
+.turnos-pendientes {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.pending-appointments-label {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs-5) 0 0;
+  box-sizing: border-box;
+  min-width: 248px;
+  max-width: 100%;
+}
+.appointment-title,
+.pending-appointments-title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.pending-appointments-title {
+  width: 471px;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.appointment-title {
+  width: 637px;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-6xs);
+  box-sizing: border-box;
+}
+.nuevo-turno,
+.turnos-pendientes1 {
+  width: 124px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.turnos-pendientes1 {
+  width: 195px;
+}
+.turnos-pasados {
+  position: relative;
+}
+.appointment-tab-labels {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-25xl);
+  white-space: nowrap;
+  text-align: left;
+  font-size: var(--desk-txt-size);
+  color: var(--color-black);
+  font-family: var(--desk-h3);
+}
+.selected-tab-highlight {
+  height: 3px;
+  width: 175px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-darkslateblue-100);
+}
+.barra-de-seleccion1,
+.selected-tab {
+  flex-direction: row;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.barra-de-seleccion1 {
+  flex: 1;
+  background-color: var(--color-gainsboro-200);
+  display: flex;
+  align-items: flex-start;
+  padding: 0 165px;
+  max-width: 100%;
+}
+.selected-tab {
+  align-self: stretch;
+  padding: 0 var(--padding-12xs);
+}
+.appointment-tab-container,
+.appointment-tabs1,
+.selected-tab {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.appointment-tab-container {
+  width: 560px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.appointment-tabs1 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+  box-sizing: border-box;
+}
+.appointment-date-headers1,
+.hora {
+  position: relative;
+  display: inline-block;
+  min-width: 44px;
+}
+.appointment-date-headers1 {
+  min-width: 40px;
+  white-space: nowrap;
+}
+.appointment-date-headers {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 0 0;
+  font-size: var(--desk-small-size);
+}
+.appointment-headers2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-10xs);
+  text-align: left;
+}
+.mdico4 {
+  align-self: stretch;
+  position: relative;
+}
+.dr-jun-rodriguez {
+  flex: 1;
+  position: relative;
+}
+.appointment-doctor-headers {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--desk-small-size);
+}
+.appointment-header-labels {
+  width: 145px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-10xs);
+}
+.pendiente4 {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 72px;
+}
+.appointment-header-labels1 {
+  width: 129px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-12xs);
+}
+.appointment-headers1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 218px 0 0;
+  gap: var(--gap-xl);
+}
+.consulta-de-control {
+  align-self: stretch;
+  position: relative;
+  color: var(--color-darkslateblue-100);
+  text-align: left;
+}
+.appointment-headers {
+  align-self: stretch;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-ghostwhite-100);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xl);
+  gap: var(--gap-xl);
+  text-align: center;
+}
+.jul-2024 {
+  position: relative;
+  display: inline-block;
+  min-width: 94px;
+}
+.vector-parent5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--desk-small1-size);
+}
+.hora-parent {
+  flex-direction: column;
+  gap: var(--gap-10xs);
+}
+.appointment-status-container,
+.hora-parent,
+.mdico-parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mdico-parent {
+  width: 145px;
+  flex-direction: column;
+  gap: var(--gap-10xs);
+  text-align: center;
+}
+.appointment-status-container {
+  flex-direction: row;
+  padding: 0 var(--padding-9xl);
+  text-align: left;
+  font-size: var(--desk-small-size);
+  color: var(--color-steelblue);
+}
+.appointment-status-headers {
+  width: 129px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-12xs);
+  text-align: center;
+}
+.frame-parent19 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-3xl) 0 0;
+  gap: var(--gap-xl);
+}
+.cardiologa {
+  align-self: stretch;
+  position: relative;
+  color: var(--color-darkslateblue-100);
+}
+.appointment-headers3 {
+  align-self: stretch;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-ghostwhite-100);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xl);
+  gap: var(--gap-xl);
+}
+.pendiente-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.appointment-header,
+.appointment-list,
+.appointments {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.appointment-list {
+  align-self: stretch;
+  gap: var(--gap-20xl);
+  font-size: var(--desk-txt-size);
+  color: var(--color-black);
+}
+.appointment-header,
+.appointments {
+  max-width: 100%;
+}
+.appointment-header {
+  align-self: stretch;
+  gap: var(--gap-41xl);
+}
+.appointments {
+  width: 724px;
+  padding: var(--padding-21xl) 0 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.upcoming-appointment-icons1 {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  min-height: 30px;
+}
+.upcoming-appointment-icons {
+  width: 190px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.proximo-turno1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--desk-h3-size);
+  font-weight: 500;
+  font-family: inherit;
+}
+.month-navigation-icon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  min-height: 20px;
+}
+.mayo1 {
+  position: relative;
+  display: inline-block;
+  min-width: 40px;
+}
+.calendar-container,
+.month-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.month-container {
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+}
+.calendar-container {
+  width: 166px;
+  justify-content: flex-end;
+}
+.dom1,
+.jue1,
+.lun1,
+.mar1,
+.sb1,
+.vie1 {
+  position: relative;
+  display: inline-block;
+  min-width: 31px;
+}
+.dom1,
+.jue1,
+.mar1,
+.sb1,
+.vie1 {
+  min-width: 29px;
+}
+.dom1,
+.jue1,
+.sb1,
+.vie1 {
+  min-width: 27px;
+}
+.dom1,
+.sb1,
+.vie1 {
+  min-width: 23px;
+}
+.dom1,
+.sb1 {
+  min-width: 32px;
+}
+.dom1 {
+  min-width: 38px;
+}
+.weekdays-labels {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.calendar-days-container2,
+.calendar-days-container6 {
+  position: relative;
+  display: inline-block;
+  min-width: 9px;
+}
+.calendar-days-container6 {
+  text-decoration: none;
+  color: inherit;
+}
+.calendar-days-container1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.calendar-days2,
+.weekdays-container {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.calendar-days2 {
+  flex-direction: row;
+  padding: 0 var(--padding-sm);
+  color: var(--color-black);
+}
+.weekdays-container {
+  flex-direction: column;
+  gap: var(--gap-4xs);
+}
+.calendar-days-container10 {
+  color: var(--color-gray);
+}
+.calendar-days-container10,
+.calendar-days-container11,
+.calendar-days-container12 {
+  position: relative;
+  display: inline-block;
+  min-width: 9px;
+}
+.calendar-days-container12 {
+  min-width: 18px;
+}
+.calendar-days-container9 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.calendar-days-container18,
+.calendar-days3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.calendar-days3 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-4xs);
+  color: var(--color-black);
+}
+.calendar-days-container18 {
+  width: 18.5px;
+  flex-direction: column;
+  gap: var(--gap-mini);
+}
+.calendar-days-container23 {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 18px;
+}
+.calendar-days-container22 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.selected-date-label {
+  position: relative;
+  display: inline-block;
+  min-width: 18px;
+  flex-shrink: 0;
+}
+.selected-date-highlight1 {
+  height: 8px;
+  width: 8px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-darkslateblue-100);
+  flex-shrink: 0;
+  z-index: 1;
+}
+.selected-date-highlight {
+  width: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) 0 var(--padding-5xs);
+  box-sizing: border-box;
+  margin-top: -2px;
+}
+.selected-date-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  color: var(--color-darkslateblue-100);
+}
+.calendar-days-container36 {
+  position: relative;
+  color: var(--color-black);
+  display: inline-block;
+  min-width: 18px;
+}
+.calendar-days-container17,
+.calendar-days5,
+.calendar-days7 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.calendar-days7 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-8xs);
+  color: var(--color-dimgray-100);
+}
+.calendar-days-container17,
+.calendar-days5 {
+  flex: 1;
+}
+.calendar-days5 {
+  flex-direction: column;
+  gap: var(--gap-mini);
+  color: var(--color-black);
+}
+.calendar-days-container17 {
+  flex-direction: row;
+  gap: var(--gap-2xl-5);
+}
+.calendar-days4,
+.calendar-grid1,
+.calendario1 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.calendar-days4 {
+  flex-direction: row;
+  padding: 0 var(--padding-7xs);
+  color: var(--color-gray);
+}
+.calendar-grid1,
+.calendario1 {
+  flex-direction: column;
+  gap: var(--gap-mini);
+  color: var(--color-darkslateblue-200);
+}
+.calendario1 {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-11xl);
+  background-color: var(--color-lavender);
+  padding: var(--padding-smi) var(--padding-3xs);
+  gap: var(--gap-4xs);
+  color: var(--color-black);
+}
+.div16 {
+  position: relative;
+  display: inline-block;
+  min-width: 86px;
+}
+.view-details-content {
+  box-shadow: var(--m3-elevation-light-1);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslateblue-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs-5) var(--padding-smi);
+}
+.ver1 {
+  position: relative;
+  font-size: var(--desk-small-size);
+  font-family: var(--desk-h3);
+  color: var(--color-gainsboro-100);
+  text-align: center;
+  display: inline-block;
+  min-width: 24px;
+}
+.view-details-content1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs-5) var(--padding-25xl);
+  background-color: var(--color-darkslateblue-100);
+  box-shadow: var(--m3-elevation-light-2);
+  border-radius: var(--br-3xs);
+  justify-content: flex-start;
+}
+.view-details-content1:hover {
+  background-color: var(--color-mediumpurple);
+}
+.data-components,
+.data-components-wrapper,
+.view-details-content1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.data-components {
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.data-components-wrapper {
+  justify-content: flex-end;
+  padding: 0 var(--padding-3xl);
+  text-align: left;
+  color: var(--color-white);
+}
+.upcoming-appointment-label {
+  width: 291px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-2xs-8);
+}
+.upcoming-appointment-details {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-26xl) var(--padding-4xs-5);
+}
+.iniciar-viedeollama1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.doctor-icon {
+  width: 118px;
+  height: 119px;
+  position: relative;
+  object-fit: cover;
+}
+.vector-icon12 {
+  width: 50px;
+  height: 40px;
+  position: relative;
+}
+.video-call-details {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.video-call-content,
+.videollamada1 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+}
+.video-call-content {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-11xl);
+  background-color: var(--color-lavender);
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) var(--padding-4xs) var(--padding-11xl)
+    var(--padding-5xs);
+}
+.videollamada1 {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) 0;
+}
+.video-call-info1 {
+  width: 355.7px;
+  height: 397px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-20xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  color: var(--color-darkslateblue-200);
+}
+.video-call-button {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xs-1);
+  max-width: 100%;
+}
+.video-call-button-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--desk-h3-size);
+}
+.upcoming-appointment-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-36xl-5);
+  max-width: 100%;
+}
+.turnos-pendieteslg,
+.upcoming-appointment {
+  max-width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.upcoming-appointment {
+  width: 397px;
+  flex-direction: column;
+  padding: var(--padding-5xl) 0 0;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--desk-small-size);
+}
+.turnos-pendieteslg {
+  width: 1920px;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 var(--padding-78xl) 0 var(--padding-610xl);
+  gap: var(--gap-54xl);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--desk-h2-size);
+  color: var(--color-darkslategray);
+  font-family: var(--desk-h3);
+}
+@media screen and (max-width: 1825px) {
+  .turnos-pendieteslg {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .turnos-pendieteslg {
+    padding-left: var(--padding-295xl);
+    padding-right: var(--padding-29xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .maria-perez1 {
+    font-size: var(--font-size-13xl);
+  }
+  .sidebar1 {
+    padding-top: var(--padding-12xl);
+    padding-bottom: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+  .turnos-pendientes {
+    font-size: var(--font-size-13xl);
+  }
+  .pending-appointments-title {
+    flex-wrap: wrap;
+  }
+  .appointment-tab-labels {
+    flex-wrap: wrap;
+    gap: var(--gap-3xl);
+  }
+  .barra-de-seleccion1 {
+    padding-left: var(--padding-63xl);
+    padding-right: var(--padding-63xl);
+    box-sizing: border-box;
+  }
+  .appointment-headers1 {
+    flex-wrap: wrap;
+    padding-right: 109px;
+    box-sizing: border-box;
+  }
+  .frame-parent19 {
+    flex-wrap: wrap;
+  }
+  .appointment-list {
+    gap: var(--gap-lgi);
+  }
+  .appointment-header {
+    gap: var(--gap-11xl);
+  }
+  .iniciar-viedeollama1,
+  .proximo-turno1 {
+    font-size: var(--font-size-5xl);
+  }
+  .turnos-pendieteslg {
+    gap: var(--gap-17xl);
+    padding-left: var(--padding-138xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .maria-perez1 {
+    font-size: var(--font-size-5xl);
+  }
+  .side-bar-elements {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .contensidebar1 {
+    gap: var(--gap-11xl);
+  }
+  .side-bar-container {
+    gap: var(--gap-23xl);
+  }
+  .contactanos1 {
+    font-size: var(--desk-small-size);
+  }
+  .company-info {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .sidebar1 {
+    gap: var(--gap-31xl);
+    padding: var(--padding-xl) var(--padding-3xl) var(--padding-20xl);
+    box-sizing: border-box;
+  }
+  .turnos-pendientes {
+    font-size: var(--font-size-5xl);
+  }
+  .nuevo-turno,
+  .turnos-pasados,
+  .turnos-pendientes1 {
+    font-size: var(--desk-small-size);
+  }
+  .barra-de-seleccion1 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .hora,
+  .mdico4 {
+    font-size: var(--desk-small-size);
+  }
+  .appointment-headers1 {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .cardiologa,
+  .consulta-de-control {
+    font-size: var(--desk-small-size);
+  }
+  .proximo-turno1 {
+    font-size: var(--desk-small1-size);
+  }
+  .weekdays-labels {
+    flex-wrap: wrap;
+  }
+  .calendar-days-container2,
+  .calendar-days-container6 {
+    width: 100%;
+    height: 9px;
+  }
+  .calendar-days-container1 {
+    flex-wrap: wrap;
+  }
+  .upcoming-appointment-details {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .iniciar-viedeollama1 {
+    font-size: var(--desk-small1-size);
+  }
+  .video-call-details {
+    gap: var(--gap-base);
+  }
+  .video-call-content {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .upcoming-appointment-container {
+    gap: var(--gap-9xl);
+  }
+  .turnos-pendieteslg {
+    gap: var(--gap-lg);
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

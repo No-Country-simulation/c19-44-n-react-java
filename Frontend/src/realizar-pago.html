@@ -1,0 +1,394 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="../global.css" />
+    <link rel="stylesheet" href="../css/realizar-pago.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+    />
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.js" integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body>
+    <div class="pagoslg">
+      <section class="sidebar-parent">
+        <div class="sidebar">            
+          <div class="sidebar-inner" style="width: 140%; margin-left: -18%;">
+            <div>
+                <a href="#" id="btn_back"><img class="weuiback-filled-icon4" loading="lazy" src="../public/back_white.svg" style="width: 50%;"/></a>
+            </div>
+            <div class="frame-parent">
+              <div class="side-bar-icon-wrapper">
+                <img
+                  class="side-bar-icon"
+                  loading="lazy"
+                  alt=""
+                  src="../public/vector-4.png"
+                />
+              </div>
+              <div class="profile-info">
+                <h1 class="maria-perez">Maria Perez</h1>
+                <div class="plan-info">
+                  <div class="plan-premium">Plan/ Premium</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="side-bar-content">
+            <div class="contensidebar">
+              <div class="navigation-items">
+                <div class="credentials">
+                  <img
+                    class="credentials-icons"
+                    loading="lazy"
+                    alt=""
+                    src="../public/icons/Vector-4.svg"
+                  />
+
+                  <div class="mis-credenciales-wrapper">
+                    <div class="mis-credenciales">Mis Credenciales</div>
+                  </div>
+                </div>
+                <div class="status-indicators"></div>
+              </div>
+              <div class="affiliated">
+                <div class="affiliated-info">
+                  <img
+                    class="affiliated-icon"
+                    alt=""
+                    src="../public/icons/Vector-perfil.svg"
+                  />
+
+                  <div class="familiar-afiliado4">Familiar afiliado</div>
+                </div>
+                <div class="affiliated-status"></div>
+              </div>
+              <div class="navigation-items1">
+                <div class="vector-parent">
+                  <img class="vector-icon" alt="" src="../public/icons/Vector-perfil-1.svg" />
+
+                  <div class="frame-inner">Mi Facturacion</div>
+                </div>
+                <div class="navigation-items-child"></div>
+              </div>
+              <div class="navigation-items2">
+                <div class="vector-group">
+                  <img
+                    class="vector-icon1"
+                    alt=""
+                    src="../public/icons/Vector-perfil-2.svg"
+                  />
+
+                  <div class="dar-de-baja-wrapper">
+                    <div class="dar-de-baja">Dar de baja</div>
+                  </div>
+                </div>
+                <div class="navigation-items-item"></div>
+              </div>
+            </div>
+          </div>
+          <div class="contact">
+            <div class="contact-details">
+              <div class="contact-action">
+                <div class="contactanos">Contactanos</div>
+                <div class="contact-icon-wrapper">
+                  <img
+                    class="contact-icon"
+                    loading="lazy"
+                    alt=""
+                    src="../public/icons/Vector-8.svg"
+                  />
+                </div>
+              </div>
+              <div class="direccin-123-calle-container">
+                <p class="direccin">Dirección:</p>
+                <p class="calle-principal-ciudad">
+                  123 Calle Principal, Ciudad, País
+                </p>
+              </div>
+              <div class="correo-electronico-contactot">
+                Correo electronico: contacto@tuempresa.com
+              </div>
+              <div class="nmero-de-telfono-container">
+                <p class="nmero-de-telfono">Número de teléfono:</p>
+                <p class="p">+123045607890</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="appointments">
+          <div class="appointment-types-parent">
+            <div class="appointment-types">
+              <div class="appointment-type">
+                <img
+                  class="appointment-icon"
+                  loading="lazy"
+                  alt=""
+                  src="../public/vector-6.svg"
+                />
+
+                <div class="appointment-name">
+                  <h1 class="turnos-formulario">
+                    Turnos / Formulario de pagos
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div class="appointment-list">
+              <div class="appointment-status">
+                <nav class="appointment-status-options">
+                  <div class="nuevo-turno">Nuevo Turno</div>
+                  <div class="turnos-pendientes">Turnos Pendientes</div>
+                  <div class="turnos-pasados">Turnos Pasados</div>
+                </nav>
+                <div class="selection-bar">
+                  <div class="barra-de-seleccion">
+                    <div class="selected-bar"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="turno-para-cardiologia-container">
+              <p class="turno-para-cardiologia">Turno para CARDIOLOGIA</p>
+              <p class="dni-xx">DNI xx xxx xxx</p>
+              <p class="fecha-24042024">fecha 24/04/2024</p>
+            </div>
+            <div class="payment">
+              <h1 class="datos-de-pago">Datos de pago</h1>
+            </div>
+            <div class="payment-details">
+              <div class="card-info">
+                <div class="holder-info">
+                  <div class="holder-details">
+                    <div class="nombre-del-titular">Nombre del Titular</div>
+                    <div class="holder-values">
+                      <div class="maria-perez1">Maria perez</div>
+                    </div>
+                  </div>
+                  <div class="security-info">
+                    <div class="cdigo-de-seguridad">Código de seguridad</div>
+                    <div class="security-input">
+                      <input class="xxxxx" placeholder="xxxxx" type="text" />
+                    </div>
+                  </div>
+                </div>
+                <div class="card-number">
+                  <div class="numero-de-tarjeta">Numero de Tarjeta</div>
+                  <div class="card-number-input">
+                    <input
+                      class="xxxxxxxxxxxxxxxx"
+                      placeholder="xxxxxxxxxxxxxxxx"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div class="holder-info1">
+                  <div class="fecha-de-expiracin-parent">
+                    <div class="fecha-de-expiracin">Fecha de expiración</div>
+                    <div class="enero-wrapper">
+                      <input
+                        class="enero"
+                        placeholder="01 - Enero"
+                        type="text"
+                      />
+                    </div>
+                  </div>
+                  <div class="holder-info-inner">
+                    <div class="security-code-wrapper">
+                      <input
+                        class="security-code"
+                        placeholder="2026"
+                        type="text"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="payment-action">
+                  <div class="buttonprimary">
+                    <div class="title">Seleccione otro metodo de pago</div>
+                    <img
+                      class="button-icon"
+                      alt=""
+                      src="../public/vector-7.svg"
+                    />
+                  </div>
+                  <button class="buttonprimary1" id="buttonprimary">
+                    <div class="title1">Pagar</div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="upcoming-appointment">
+        <div class="appointment-icons-parent">
+          <div class="appointment-icons">
+            <img
+              class="upcoming-appointment-icons"
+              loading="lazy"
+              alt=""
+              src="../public/vector-8.svg"
+            />
+
+            <img
+              class="upcoming-appointment-icons1"
+              loading="lazy"
+              alt=""
+              src="../public/vector-9.svg"
+            />
+
+            <img
+              class="upcoming-appointment-icons2"
+              loading="lazy"
+              alt=""
+              src="../public/vector-10.svg"
+            />
+          </div>
+          <div class="appointment-calendar">
+            <div class="calendar">
+              <h2 class="proximo-turno">Proximo Turno</h2>
+              <div class="calendario">
+                <div class="month-container">
+                  <div class="month">
+                    <img
+                      class="month-icon"
+                      loading="lazy"
+                      alt=""
+                      src="../public/vector-11.svg"
+                    />
+
+                    <div class="mayo">Mayo</div>
+                  </div>
+                </div>
+                <div class="weekdays">
+                  <div class="weekdays-container">
+                    <div class="weekday-labels">
+                      <div class="lun">Lun.</div>
+                      <div class="mar">Mar</div>
+                      <div class="mie">Mie.</div>
+                      <div class="jue">Jue</div>
+                      <div class="vie">Vie</div>
+                      <div class="sb">Sáb.</div>
+                      <div class="dom">Dom.</div>
+                    </div>
+                    <div class="week-container">
+                      <div class="week">
+                        <div class="week-numbers">1</div>
+                        <div class="week-numbers1">2</div>
+                        <div class="week-numbers2">3</div>
+                        <div class="week-numbers3">4</div>
+                        <div class="week-numbers4">5</div>
+                        <div class="week-numbers5">6</div>
+                        <div class="week-numbers6">7</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="week-container1">
+                    <div class="week1">
+                      <div class="week-numbers7">8</div>
+                      <div class="week-numbers8">9</div>
+                      <div class="week-numbers9">10</div>
+                      <div class="week-numbers10">11</div>
+                      <div class="week-numbers11">12</div>
+                      <div class="week-numbers12">13</div>
+                      <div class="week-numbers13">14</div>
+                    </div>
+                  </div>
+                  <div class="week-container2">
+                    <div class="week2">
+                      <div class="week-numbers14">
+                        <div class="days">15</div>
+                        <div class="days1">22</div>
+                        <div class="days2">29</div>
+                      </div>
+                      <div class="week-container3">
+                        <div class="week3">
+                          <div class="week-numbers15">16</div>
+                          <div class="week-numbers16">17</div>
+                          <div class="week-numbers17">18</div>
+                          <div class="week-numbers18">19</div>
+                          <div class="week-numbers19">20</div>
+                          <div class="week-numbers20">21</div>
+                        </div>
+                        <div class="week-container4">
+                          <div class="week4">
+                            <div class="week-numbers21">23</div>
+                            <div class="appointment-day">
+                              <div class="day">24</div>
+                              <div class="day-marker">
+                                <div class="selected-day"></div>
+                              </div>
+                            </div>
+                            <div class="week-numbers22">25</div>
+                            <div class="week-numbers23">26</div>
+                            <div class="week-numbers24">27</div>
+                            <div class="week-numbers25">28</div>
+                          </div>
+                          <div class="week5">
+                            <div class="days-row">
+                              <div class="week-days">30</div>
+                              <div class="week-days1">31</div>
+                              <div class="week-days2">1</div>
+                              <div class="week-days3">2</div>
+                              <div class="week-days4">3</div>
+                              <div class="week-days5">4</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="view-calendar">
+                <div class="view-button">
+                  <div class="view-more">
+                    <div class="more-label">24/04/2024</div>
+                  </div>
+                  <button class="view-more1">
+                    <div class="ver">Ver</div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video-call-button-wrapper">
+            <div class="video-call-button">
+              <h2 class="iniciar-viedeollama">Iniciar videollamada</h2>
+              <div class="video-call-preview">
+                <div class="videollamada">
+                  <div class="doctor-info">
+                    <div class="doctor-details">
+                      <img
+                        class="doctor-icon"
+                        loading="lazy"
+                        alt=""
+                        src="../public/vector-141@2x.png"
+                      />
+
+                      <h2 class="dr-maria-p-container">
+                        <p class="dr-maria-p">Dr. Maria P</p>
+                        <p class="pediatria">Pediatria</p>
+                      </h2>
+                      <img
+                        class="call-icon"
+                        loading="lazy"
+                        alt=""
+                        src="../public/Vector-10.svg"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../scripts/realizar-pago.js" type="module"></script>
+  </body>
+</html>
